@@ -8,6 +8,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeadCardComponent } from './head-card/head-card.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { TitlePageComponent } from './title-page/title-page.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FooterComponent } from './footer/footer.component';
     NavbarComponent,
     HeadCardComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    TitlePageComponent
   ],
   imports: [
     BrowserModule,
