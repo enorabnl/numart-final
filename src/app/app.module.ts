@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeadCardComponent } from './head-card/head-card.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    HeadCardComponent
+    HeadCardComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
