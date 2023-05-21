@@ -1,4 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import {HeadCardModel} from "../model/head-card.modele";
+
+
 
 @Component({
   selector: 'app-head-card',
@@ -6,5 +9,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./head-card.component.scss']
 })
 export class HeadCardComponent {
+  @Input() card!:HeadCardModel;
 
 }

@@ -9,6 +9,7 @@ import { HeadCardComponent } from './head-card/head-card.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { TitlePageComponent } from './title-page/title-page.component';
+import { ArtFormComponent } from './art-form/art-form.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { TitlePageComponent } from './title-page/title-page.component';
     HeadCardComponent,
     HeaderComponent,
     FooterComponent,
-    TitlePageComponent
+    TitlePageComponent,
+    ArtFormComponent
   ],
   imports: [
     BrowserModule,
