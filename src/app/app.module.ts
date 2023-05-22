@@ -10,6 +10,12 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { TitlePageComponent } from './title-page/title-page.component';
 import { ArtFormComponent } from './art-form/art-form.component';
+import { TextShortComponent } from './text-components/text-short/text-short.component';
+import { TextImgRComponent } from './text-components/text-img-r/text-img-r.component';
+import { TextImgLComponent } from './text-components/text-img-l/text-img-l.component';
+import { ImgComponent } from './text-components/img/img.component';
+import { ImgCarousselComponent } from './text-components/img-caroussel/img-caroussel.component';
+import { TextLongComponent } from './text-components/text-long/text-long.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +25,13 @@ import { ArtFormComponent } from './art-form/art-form.component';
     HeaderComponent,
     FooterComponent,
     TitlePageComponent,
-    ArtFormComponent
+    ArtFormComponent,
+    TextShortComponent,
+    TextImgRComponent,
+    TextImgLComponent,
+    ImgComponent,
+    ImgCarousselComponent,
+    TextLongComponent
   ],
   imports: [
     BrowserModule,
