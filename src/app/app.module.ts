@@ -17,6 +17,7 @@ import { ImgComponent } from './text-components/img/img.component';
 import { ImgCarousselComponent } from './text-components/img-caroussel/img-caroussel.component';
 import { TextLongComponent } from './text-components/text-long/text-long.component';
 import { ChapterComponent } from './chapter/chapter.component';
+import {ChapterService} from "./chapter/chapter.service";
 
 @NgModule({
   declarations: [
@@ -39,7 +40,7 @@ import { ChapterComponent } from './chapter/chapter.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [ChapterService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
