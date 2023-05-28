@@ -1,9 +1,9 @@
 {
-  "chapter": [
+  "chapters": [
     {
       "id": 1,
       "titre": "Chapitre 1",
-      "subChapter": [
+      "subChapters": [
         {
           "id": 1,
           "titre": "Sous-chapitre 1.1",
@@ -23,7 +23,7 @@
     {
       "id": 2,
       "titre": "Chapitre 2",
-      "subChapter": [
+      "subChapters": [
         {
           "id": 3,
           "titre": "Sous-chapitre 2.1",
