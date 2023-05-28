@@ -1,0 +1,44 @@
+{
+  "chapter": [
+    {
+      "id": 1,
+      "titre": "Chapitre 1",
+      "subChapter": [
+        {
+          "id": 1,
+          "titre": "Sous-chapitre 1.1",
+          "imageURL": "chemin/vers/image1.jpg",
+          "description": "Description du sous-chapitre 1.1",
+          "type": "Type 1"
+        },
+        {
+          "id": 2,
+          "titre": "Sous-chapitre 1.2",
+          "imageURL": "chemin/vers/image2.jpg",
+          "description": "Description du sous-chapitre 1.2",
+          "type": "Type 2"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titre": "Chapitre 2",
+      "subChapter": [
+        {
+          "id": 3,
+          "titre": "Sous-chapitre 2.1",
+          "imageURL": "chemin/vers/image3.jpg",
+          "description": "Description du sous-chapitre 2.1",
+          "type": "Type 1"
+        },
+        {
+          "id": 4,
+          "titre": "Sous-chapitre 2.2",
+          "imageURL": "chemin/vers/image4.jpg",
+          "description": "Description du sous-chapitre 2.2",
+          "type": "Type 2"
+        }
+      ]
+    }
+  ]
+}
