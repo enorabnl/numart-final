@@ -16,6 +16,7 @@ import { TextImgLComponent } from './text-components/text-img-l/text-img-l.compo
 import { ImgComponent } from './text-components/img/img.component';
 import { ImgCarousselComponent } from './text-components/img-caroussel/img-caroussel.component';
 import { TextLongComponent } from './text-components/text-long/text-long.component';
+import { ChapterComponent } from './chapter/chapter.component';
 
 @NgModule({
   declarations: [
@@ -31,10 +32,12 @@ import { TextLongComponent } from './text-components/text-long/text-long.compone
     TextImgLComponent,
     ImgComponent,
     ImgCarousselComponent,
-    TextLongComponent
+    TextLongComponent,
+    ChapterComponent
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
