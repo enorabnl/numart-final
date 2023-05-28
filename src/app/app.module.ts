@@ -18,6 +18,7 @@ import { ImgCarousselComponent } from './text-components/img-caroussel/img-carou
 import { TextLongComponent } from './text-components/text-long/text-long.component';
 import { ChapterComponent } from './chapter/chapter.component';
 import {ChapterService} from "./chapter/chapter.service";
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import {ChapterService} from "./chapter/chapter.service";
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [ChapterService],
   bootstrap: [AppComponent]
