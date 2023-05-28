@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {ChapterService} from "./chapter.service";
 
 @Component({
   selector: 'app-chapter',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./chapter.component.scss']
 })
 export class ChapterComponent {
-
+  constructor(service :ChapterService) {
+  }
 }
