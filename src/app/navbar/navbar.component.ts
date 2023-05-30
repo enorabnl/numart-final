@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {Router} from "@angular/router";
+import {ChapterComponent} from "../chapter/chapter.component";
 
 @Component({
   selector: 'app-navbar',
@@ -7,10 +8,12 @@ import {Router} from "@angular/router";
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent {
+
   constructor(private router : Router) {
   }
-  ngOnInit() : void {
-    
+  navigateToChapter(chapterId: number){
+    this.router.navigate(['/chapter',chapterId]);
   }
+
 
 }

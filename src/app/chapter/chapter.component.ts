@@ -19,6 +19,8 @@ export class ChapterComponent {
     this.loadChapter();
   }
 
+
+
   loadChapter(): void {
     this.chapterService.getChapter(1).subscribe(
       (chapter: ChapterModel | undefined) => {
