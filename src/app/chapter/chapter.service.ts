@@ -11,6 +11,7 @@ import { of } from 'rxjs';
 })
 export class ChapterService {
   private chapters: ChapterModel[] = [];
+  private chapter! :ChapterModel | undefined ;
 
   constructor(private http: HttpClient) { }
 
@@ -24,9 +25,22 @@ export class ChapterService {
 
   getChapter(id: number): Observable<ChapterModel | undefined> {
     // Charger les données du fichier JSON en utilisant HttpClient
-    return this.http.get<ChapterModel[]>('assets/data/chapters.json').pipe(
+
+    let data = this.http.get<ChapterModel[]>('assets/data/chapters.json').pipe(
       map(chapters => chapters.find(chapter => chapter.id === id))
     );
+
+    data.subscribe(
+      (chapter: ChapterModel | undefined) => {
+        this.chapter = chapter
+
+      },
+      (error: any) => {
+        console.error('Erreur lors de la récupération du chaptitre:', error);
+      }
+    );
+
+    return data;
   }
 
   getChapterbyId(id: number | undefined){

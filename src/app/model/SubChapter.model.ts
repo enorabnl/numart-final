@@ -1,10 +1,10 @@
 export class SubChapterModel {
   constructor(
-    private id: number,
-    private titre: string,
-    private imageURL: string,
-    private description: string,
-    private type: string
+    public id: number,
+    public titre: string,
+    public imageURL: string,
+    public description: string,
+    public type: string
   ) {}
 
   // Getter pour l'attribut id
