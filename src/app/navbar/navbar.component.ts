@@ -25,20 +25,7 @@ export class NavbarComponent {
       }
     );
   }
-
-  onTitleClick(chapterId:number):void{
-    this.chapterService.getChapter(chapterId).subscribe(
-      (chapter)=>{
-        //Mettre à jour chapitre actuel
-      },
-      (error)=>{
-        console.error('Erreur lors du chargement du chapitre :',error);
-      }
-    )
-  }
   getChapters():ChapterModel[]{
     return this.chapters;
   }
-
-
 }

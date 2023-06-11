@@ -1,8 +1,6 @@
-<!--<div class="col-10 me-0" >
-  <h1 class="my-5 mx-auto text-center "> {{ currentChapter?.titre }}</h1>
-  <app-text-component *ngFor=" let subchapter of currentChapter?.subChapters "  [subChapter]="subchapter" ></app-text-component>
-</div>-->
 <div *ngIf="currentChapter">
-  <h1>{{currentChapter.titre}}</h1>
-  <app-text-component *ngFor=" let subchapter of currentChapter?.subChapters "  [subChapter]="subchapter" ></app-text-component>
+  <h1 class="texte ">{{currentChapter.titre}}</h1>
+  <app-text-component class="description" *ngFor=" let subchapter of currentChapter?.subChapters "  [subChapter]="subchapter" ></app-text-component>
+  <br>
+  <br>
 </div>

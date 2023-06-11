@@ -20,10 +20,7 @@ export class ChapterService {
       map(chapters => chapters)
     );
   }
-  getChapterbyId(id: number | undefined){
-    return this.http.get<ChapterModel[]>('assets/data/chapters.json').pipe(map((produits: ChapterModel[]) =>
-      produits.filter((unProduit: ChapterModel) => unProduit.id === 1)))
-  }
+
   getChapter(id: number): Observable<ChapterModel | undefined> {
     // Charger les données du fichier JSON en utilisant HttpClient
     let data = this.http.get<ChapterModel[]>('assets/data/chapters.json').pipe(
