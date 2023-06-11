@@ -1,8 +1,8 @@
 <script src="../chapter/chapter.service.ts"></script>
 <div class="navbar">
-  <div class="mt-4 ms-1">
-    <div class="list-group">
-      <a *ngFor="let chapter of getChapters()"  class="list-group-item list-group-item-action" [routerLink]="['/chapter',chapter.id]">{{chapter.titre}}</a>
+  <div class="mt-4 ms-1 ">
+    <div class="list-group ">
+      <a *ngFor="let chapter of getChapters()"  class="list-group-item list-group-item-action texte style-navbar" [routerLink]="['/chapter',chapter.id]">{{chapter.titre}}</a>
     </div>
   </div>
 </div>
