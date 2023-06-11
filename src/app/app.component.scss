@@ -1,9 +1,26 @@
-body {
-  background: linear-gradient(90deg, #1B998B, #FFACE4);
-}
+
 h1{
   font-family: Impact, sans-serif;
 }
 p{
   font-family : Futura, sans-serif;
+}
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background: #1B998B;
+  box-shadow: 0 7px 20px #000000;
+  text-align: center;
+  padding: 10px;
+  font-family: Impact, sans-serif;
+  font-size :20px
+}
+
+.background {
+  position: relative;
+  z-index: 50;
+  background: linear-gradient(90deg, #1B998B, #FFACE4);
 }
