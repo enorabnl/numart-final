@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input,OnInit } from '@angular/core';
 import {ChapterService} from "./chapter.service";
 import {ChapterModel} from "../model/Chapter.model";
 import {ActivatedRoute} from "@angular/router";
@@ -8,7 +8,7 @@ import {ActivatedRoute} from "@angular/router";
   templateUrl: './chapter.component.html',
   styleUrls: ['./chapter.component.scss'],
 })
-export class ChapterComponent {
+export class ChapterComponent implements OnInit {
   @Input() currentChapter: ChapterModel|undefined;
   private id:number;
   constructor(private activatedRoute: ActivatedRoute, private chapterService :ChapterService) {

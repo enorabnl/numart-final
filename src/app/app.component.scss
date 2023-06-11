@@ -11,8 +11,8 @@ p{
   left: 0;
   width: 100%;
   z-index: 100;
-  background: #1B998B;
-  box-shadow: 0 7px 20px #000000;
+  background: linear-gradient(90deg, #5B85AA, #121111);
+  box-shadow: 0 7px 20px #121111;
   text-align: center;
   padding: 10px;
   font-family: Impact, sans-serif;
@@ -22,5 +22,15 @@ p{
 .background {
   position: relative;
   z-index: 50;
-  background: linear-gradient(90deg, #1B998B, #FFACE4);
+  background: linear-gradient(90deg, #5B85AA, #121111);
+}
+.footer.show {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+
+
+
 }

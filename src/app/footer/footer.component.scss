@@ -1,16 +1,10 @@
-.footer.show {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  z-index: 100;
-}
-.texte-footer{
+.texte{
   font-family: Futura, sans-serif;
   font-size: 17px;
   text-align: center;
   color: #FFFFFA;
-  background-color: #FFACE4;
+
+  background: linear-gradient(90deg, #5B85AA, #121111);
   box-shadow: 0 -7px 20px #000000;
   padding : 20px
 }

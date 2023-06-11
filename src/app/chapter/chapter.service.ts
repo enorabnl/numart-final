@@ -16,13 +16,10 @@ export class ChapterService {
   public getChapters(): Observable<ChapterModel[]> {
     // Charger les données du fichier JSON en utilisant HttpClient
     //return this.http.get<ChapterModel[]>('assets/data/chapters.json');
-    return this.http.get<ChapterModel[]>('assets/data/chapters.json').pipe(
-      map(chapters => chapters)
-    );
+    return this.http.get<ChapterModel[]>('assets/data/chapters.json');
   }
 
   getChapter(id: number): Observable<ChapterModel | undefined> {
-    // Charger les données du fichier JSON en utilisant HttpClient
     let data = this.http.get<ChapterModel[]>('assets/data/chapters.json').pipe(
       map(chapters => chapters.find(chapter => chapter.id === id))
     );
