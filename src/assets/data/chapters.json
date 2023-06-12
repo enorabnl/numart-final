@@ -6,16 +6,16 @@
         {
           "id": 1,
           "titre": "Contexte",
-          "imageURL": "chemin/vers/image1.jpg",
+          "imageURL": "assets/data/img/scene.png",
           "description": "Dans le cadre de l'UV AC20 (UV d'acquisition de connaissances scientifiques), j'ai entrepris une étude approfondie de l'art numérique dans ses différentes formes. Mon objectif était de mieux comprendre cet art émergeant et d'appréhender les méthodes utilisées pour sa création. <br>Au cours de cette étude, j'ai également eu l'opportunité d'apprendre de nouveaux langages de programmation tels que le TypeScript, le JavaScript, le CSS et le HTML. Ces langages m'ont permis de créer un rapport qui reflète certains aspects de cet art, sous la forme d'un site internet immersif. À travers ce site, je souhaite vous offrir une expérience immersive et interactive pour découvrir l'art numérique dans toute sa diversité.",
-          "type": "Type 1"
+          "type": "img"
         },
         {
           "id": 2,
           "titre": "Présentation du sujet",
           "imageURL": "chemin/vers/image2.jpg",
           "description": "Le sujet central de mon étude porte sur l'art numérique, une forme d'expression artistique qui émerge avec les avancées technologiques. Cependant, une question fondamentale se pose : le code est-il l'avenir de l'art ? Cette interrogation soulève des débats et des réflexions quant à l'impact du numérique sur l'art traditionnel, ainsi que sur les avantages et les limites de l'utilisation du code dans la création artistique. À travers mon rapport, j'explorerai différentes formes d'art numérique telles que l'art vectoriel, l'art interactif, l'art génératif, le crypto art et les NFT, le pixel art, la sculpture digitale, ainsi que la création de sites internet artistiques.",
-          "type": "Type 2"
+          "type": "text-long"
         }
       ]
     },

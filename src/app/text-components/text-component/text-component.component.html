@@ -1,3 +1,14 @@
-<app-text-short [subChapter]="subChapter"></app-text-short>
-<app-text-long [subChapter]="subChapter"></app-text-long>
-<hr class="w-50 mx-auto my-4">
+
+<div *ngIf="subChapter.type === 'text-short'">
+  <app-text-short [subChapter]="subChapter"></app-text-short>
+  <hr class="w-50 mx-auto my-4">
+</div>
+<div *ngIf="subChapter.type === 'text-long'">
+  <app-text-long [subChapter]="subChapter"></app-text-long>
+  <hr class="w-50 mx-auto my-4">
+</div>
+<div *ngIf="subChapter.type === 'img'">
+  <app-img [subChapter]="subChapter"></app-img>
+  <hr class="w-50 mx-auto my-4">
+</div>
+

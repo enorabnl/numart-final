@@ -1,7 +1,7 @@
-import { Component, Input,OnInit } from '@angular/core';
-import {ChapterService} from "./chapter.service";
-import {ChapterModel} from "../model/Chapter.model";
-import {ActivatedRoute} from "@angular/router";
+import { Component, OnInit } from '@angular/core';
+import { ChapterService } from './chapter.service';
+import { ChapterModel } from '../model/Chapter.model';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-chapter',
@@ -9,27 +9,27 @@ import {ActivatedRoute} from "@angular/router";
   styleUrls: ['./chapter.component.scss'],
 })
 export class ChapterComponent implements OnInit {
-  @Input() currentChapter: ChapterModel|undefined;
-  private id:number;
-  constructor(private activatedRoute: ActivatedRoute, private chapterService :ChapterService) {
-    this.id =parseInt(this.activatedRoute.snapshot.paramMap.get('id')||'0');
-    console.log(this.id)
+  currentChapter: ChapterModel | undefined;
+  private id: number;
+
+  constructor(private activatedRoute: ActivatedRoute, private chapterService: ChapterService) {
+    this.id = 0; // Initialisez l'ID à une valeur par défaut
   }
 
   ngOnInit(): void {
-
-    this.loadChapter();
+    this.activatedRoute.params.subscribe(params => {
+      this.id = parseInt(params['id']); // Récupérez l'ID de la route
+      this.loadChapter();
+    });
   }
+
   loadChapter(): void {
     this.chapterService.getChapter(this.id).subscribe(
       (chapter: ChapterModel | undefined) => {
-
-
         this.currentChapter = chapter;
-
       },
       (error: any) => {
-        console.error('Erreur lors de la récupération du chaptitre:', error);
+        console.error('Erreur lors de la récupération du chapitre:', error);
       }
     );
   }
