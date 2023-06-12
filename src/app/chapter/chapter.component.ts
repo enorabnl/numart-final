@@ -13,6 +13,7 @@ export class ChapterComponent implements OnInit {
   private id:number;
   constructor(private activatedRoute: ActivatedRoute, private chapterService :ChapterService) {
     this.id =parseInt(this.activatedRoute.snapshot.paramMap.get('id')||'0');
+    console.log(this.id)
   }
 
   ngOnInit(): void {
