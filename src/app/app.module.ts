@@ -19,6 +19,7 @@ import { ChapterComponent } from './chapter/chapter.component';
 import {ChapterService} from "./chapter/chapter.service";
 import { HttpClientModule } from '@angular/common/http';
 import { TextComponentComponent } from './text-components/text-component/text-component.component';
+import { Sketch1Component } from './sketch1/sketch1.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { TextComponentComponent } from './text-components/text-component/text-co
     ImgCarousselComponent,
     TextLongComponent,
     ChapterComponent,
-    TextComponentComponent
+    TextComponentComponent,
+    Sketch1Component
   ],
   imports: [
     BrowserModule,
