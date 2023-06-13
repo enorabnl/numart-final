@@ -1,7 +1,10 @@
 import { SubChapterModel } from "./SubChapter.model";
 
 export class ChapterModel {
-  constructor(public id: number, public titre: string, public subChapters: SubChapterModel[]) {}
+  constructor(
+    public id: number,
+    public titre: string,
+    public subChapters: SubChapterModel[]) {}
 
   // Getter pour l'attribut id
   get getId(): number {

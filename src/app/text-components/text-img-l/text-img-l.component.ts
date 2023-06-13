@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
+import {SubSubChapterModel} from "../../model/SubSubChapter.model";
 
 @Component({
   selector: 'app-text-img-l',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./text-img-l.component.scss']
 })
 export class TextImgLComponent {
-
+  @Input() subSubChapter!: SubSubChapterModel;
 }

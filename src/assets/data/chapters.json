@@ -6,16 +6,25 @@
         {
           "id": 1,
           "titre": "Contexte",
-          "imageURL": "assets/data/img/scene.png",
-          "description": "Dans le cadre de l'UV AC20 (UV d'acquisition de connaissances scientifiques), j'ai entrepris une étude approfondie de l'art numérique dans ses différentes formes. Mon objectif était de mieux comprendre cet art émergeant et d'appréhender les méthodes utilisées pour sa création. <br>Au cours de cette étude, j'ai également eu l'opportunité d'apprendre de nouveaux langages de programmation tels que le TypeScript, le JavaScript, le CSS et le HTML. Ces langages m'ont permis de créer un rapport qui reflète certains aspects de cet art, sous la forme d'un site internet immersif. À travers ce site, je souhaite vous offrir une expérience immersive et interactive pour découvrir l'art numérique dans toute sa diversité.",
-          "type": "img"
-        },
-        {
+          "subSubChapters": [
+            {
+              "id": 1,
+              "imageURL": "assets/data/img/scene.png",
+              "description": "Dans le cadre de l'UV AC20 (UV d'acquisition de connaissances scientifiques), j'ai entrepris une étude approfondie de l'art numérique dans ses différentes formes. Mon objectif était de mieux comprendre cet art émergeant et d'appréhender les méthodes utilisées pour sa création. <br>Au cours de cette étude, j'ai également eu l'opportunité d'apprendre de nouveaux langages de programmation tels que le TypeScript, le JavaScript, le CSS et le HTML. Ces langages m'ont permis de créer un rapport qui reflète certains aspects de cet art, sous la forme d'un site internet immersif. À travers ce site, je souhaite vous offrir une expérience immersive et interactive pour découvrir l'art numérique dans toute sa diversité.",
+              "type": "text-short"
+            }
+          ]
+        },{
           "id": 2,
           "titre": "Présentation du sujet",
-          "imageURL": "chemin/vers/image2.jpg",
-          "description": "Le sujet central de mon étude porte sur l'art numérique, une forme d'expression artistique qui émerge avec les avancées technologiques. Cependant, une question fondamentale se pose : le code est-il l'avenir de l'art ? Cette interrogation soulève des débats et des réflexions quant à l'impact du numérique sur l'art traditionnel, ainsi que sur les avantages et les limites de l'utilisation du code dans la création artistique. À travers mon rapport, j'explorerai différentes formes d'art numérique telles que l'art vectoriel, l'art interactif, l'art génératif, le crypto art et les NFT, le pixel art, la sculpture digitale, ainsi que la création de sites internet artistiques.",
-          "type": "text-long"
+          "subSubChapters": [
+            {
+              "id": 2,
+              "imageURL": "chemin/vers/image2.jpg",
+              "description": "Le sujet central de mon étude porte sur l'art numérique, une forme d'expression artistique qui émerge avec les avancées technologiques. Cependant, une question fondamentale se pose : le code est-il l'avenir de l'art ? Cette interrogation soulève des débats et des réflexions quant à l'impact du numérique sur l'art traditionnel, ainsi que sur les avantages et les limites de l'utilisation du code dans la création artistique. À travers mon rapport, j'explorerai différentes formes d'art numérique telles que l'art vectoriel, l'art interactif, l'art génératif, le crypto art et les NFT, le pixel art, la sculpture digitale, ainsi que la création de sites internet artistiques.",
+              "type": "text-short"
+            }
+          ]
         }
       ]
     },
@@ -26,82 +35,286 @@
         {
           "id": 3,
           "titre": "Art vectoriel",
-          "imageURL": "chemin/vers/image3.jpg",
-          "description": "L'art vectoriel est une forme de création artistique qui utilise des logiciels de dessin vectoriel pour produire des images basées sur des vecteurs. Contrairement aux images bitmap, les illustrations vectorielles sont composées de courbes, de lignes et de formes géométriques définies par des équations mathématiques, ce qui leur permet d'être redimensionnées et modifiées sans perdre leur netteté ou leur qualité.<br><br>Les logiciels de dessin vectoriel populaires tels qu'Adobe Illustrator, CorelDRAW et Inkscape offrent des outils puissants pour créer des illustrations vectorielles. Quelques exemples courants d'art vectoriel incluent des logos d'entreprises, des dessins animés, des motifs de textiles, des illustrations de livres, des infographies, des conceptions d'emballages, des icônes d'applications et des enseignes. Les artistes vectoriels explorent souvent un large éventail de styles, du minimalisme et de l'abstraction aux illustrations détaillées et aux dessins réalistes. Grâce à sa polyvalence et à sa capacité à produire des images nettes et claires, l'art vectoriel continue de jouer un rôle important dans le monde du design et de l'art numérique.<br><br>Les avantages de l'art vectoriel sont sa flexibilité et sa résolution indépendante. Étant donné que les images vectorielles sont constituées d'objets géométriques, elles peuvent être redimensionnées à n'importe quelle taille sans perte de qualité, ce qui les rend polyvalentes pour diverses applications. De plus, les illustrations vectorielles peuvent être modifiées, recolorées et éditées de manière non destructive, offrant ainsi une grande liberté créative.<br>",
-          "type": "Type 1"
+          "subSubChapters": [
+            {
+              "id": 3,
+              "description": "L'art vectoriel est une forme de création artistique qui utilise des logiciels de dessin vectoriel pour produire des images basées sur des vecteurs. Contrairement aux images bitmap, les illustrations vectorielles sont composées de courbes, de lignes et de formes géométriques définies par des équations mathématiques, ce qui leur permet d'être redimensionnées et modifiées sans perdre leur netteté ou leur qualité.",
+              "type": "text-short"
+
+            },{
+              "id": 4,
+              "description":"Les logiciels de dessin vectoriel populaires tels qu'Adobe Illustrator, CorelDRAW et Inkscape offrent des outils puissants pour créer des illustrations vectorielles. Quelques exemples courants d'art vectoriel incluent des logos d'entreprises, des dessins animés, des motifs de textiles, des illustrations de livres, des infographies, des conceptions d'emballages, des icônes d'applications et des enseignes. Les artistes vectoriels explorent souvent un large éventail de styles, du minimalisme et de l'abstraction aux illustrations détaillées et aux dessins réalistes. Grâce à sa polyvalence et à sa capacité à produire des images nettes et claires, l'art vectoriel continue de jouer un rôle important dans le monde du design et de l'art numérique.",
+              "type": "text-short"
+
+            },{
+              "id": 5,
+              "description":"Les avantages de l'art vectoriel sont sa flexibilité et sa résolution indépendante. Étant donné que les images vectorielles sont constituées d'objets géométriques, elles peuvent être redimensionnées à n'importe quelle taille sans perte de qualité, ce qui les rend polyvalentes pour diverses applications. De plus, les illustrations vectorielles peuvent être modifiées, recolorées et éditées de manière non destructive, offrant ainsi une grande liberté créative." ,
+              "type": "text-short"
+            }
+          ]
         },
         {
           "id": 4,
           "titre": "Art interactif",
-          "imageURL": "chemin/vers/image4.jpg",
-          "description": "L'art interactif est une forme d'expression artistique qui engage activement le spectateur et lui permet de participer ou d'interagir avec l'œuvre d'art elle-même. Contrairement aux médias traditionnels tels que la peinture ou la sculpture statique, l'art interactif implique souvent l'utilisation de technologies numériques et de capteurs pour créer des expériences immersives et engageantes.<br><br>Les artistes interactifs utilisent une variété de supports et de techniques pour créer leurs œuvres. Cela peut inclure des installations interactives, des projets de réalité virtuelle ou augmentée, des jeux vidéo artistiques, des performances participatives et bien d'autres formes encore. Ces œuvres d'art encouragent le spectateur à devenir un participant actif, à explorer l'espace, à interagir avec les éléments de l'œuvre ou à influencer son comportement.<br><br>Les technologies modernes, telles que les capteurs de mouvement, les écrans tactiles, les dispositifs de réalité virtuelle ou les interfaces utilisateur avancées, permettent aux artistes de créer des expériences interactives riches et variées. Les spectateurs peuvent interagir avec les œuvres en touchant, en manipulant des objets virtuels, en déclenchant des sons ou des effets visuels, en répondant à des stimuli environnementaux ou en participant à des dialogues virtuels.<br><br>L'art interactif est souvent multidisciplinaire, combinant des éléments de l'art visuel, de la technologie, de la programmation et de l'interaction humaine. Il peut aborder une grande variété de sujets et de thèmes, tels que la politique, la culture, l'environnement, l'identité ou les questions sociales. Les artistes interactifs explorent également de nouvelles façons de raconter des histoires, de provoquer des émotions et d'engager le public d'une manière immersive et participative.<br><br>Quelques exemples d'art interactif comprennent des installations interactives qui réagissent aux mouvements du spectateur, des expériences de réalité virtuelle où l'utilisateur peut explorer des mondes virtuels, des jeux d'art qui défient les attentes et les normes traditionnelles, des performances interactives où le public est invité à participer et à influencer le déroulement de l'œuvre, et des projets numériques collaboratifs qui permettent aux personnes du monde entier de créer ensemble.<br>",
-          "type": "Type 2"
+          "subSubChapters": [
+            {
+              "id": 6,
+              "description":"L'art interactif est une forme d'expression artistique qui engage activement le spectateur et lui permet de participer ou d'interagir avec l'œuvre d'art elle-même. Contrairement aux médias traditionnels tels que la peinture ou la sculpture statique, l'art interactif implique souvent l'utilisation de technologies numériques et de capteurs pour créer des expériences immersives et engageantes." ,
+              "type": "text-short"
+            },{
+              "id": 7,
+              "description":"Les artistes interactifs utilisent une variété de supports et de techniques pour créer leurs œuvres. Cela peut inclure des installations interactives, des projets de réalité virtuelle ou augmentée, des jeux vidéo artistiques, des performances participatives et bien d'autres formes encore. Ces œuvres d'art encouragent le spectateur à devenir un participant actif, à explorer l'espace, à interagir avec les éléments de l'œuvre ou à influencer son comportement." ,
+              "type": "text-short"
+            },{
+              "id": 8,
+              "description":"Les technologies modernes, telles que les capteurs de mouvement, les écrans tactiles, les dispositifs de réalité virtuelle ou les interfaces utilisateur avancées, permettent aux artistes de créer des expériences interactives riches et variées. Les spectateurs peuvent interagir avec les œuvres en touchant, en manipulant des objets virtuels, en déclenchant des sons ou des effets visuels, en répondant à des stimuli environnementaux ou en participant à des dialogues virtuels." ,
+              "type": "text-short"
+            },{
+              "id": 9,
+              "description": "L'art interactif est souvent multidisciplinaire, combinant des éléments de l'art visuel, de la technologie, de la programmation et de l'interaction humaine. Il peut aborder une grande variété de sujets et de thèmes, tels que la politique, la culture, l'environnement, l'identité ou les questions sociales. Les artistes interactifs explorent également de nouvelles façons de raconter des histoires, de provoquer des émotions et d'engager le public d'une manière immersive et participative.",
+              "type": "text-short"
+            },{
+              "id": 10,
+              "description":"Quelques exemples d'art interactif comprennent des installations interactives qui réagissent aux mouvements du spectateur, des expériences de réalité virtuelle où l'utilisateur peut explorer des mondes virtuels, des jeux d'art qui défient les attentes et les normes traditionnelles, des performances interactives où le public est invité à participer et à influencer le déroulement de l'œuvre, et des projets numériques collaboratifs qui permettent aux personnes du monde entier de créer ensemble." ,
+              "type": "text-short"
+            }
+          ]
         },
         {
           "id": 5,
           "titre": "Art génératif",
-          "imageURL": "chemin/vers/image4.jpg",
-          "description": "L'art génératif est une forme d'expression artistique qui repose sur l'utilisation de systèmes informatiques ou d'algorithmes pour créer des œuvres d'art autonomes et évolutives. Contrairement à d'autres formes d'art où l'artiste crée manuellement chaque détail, l'art génératif se concentre sur la création de règles et de paramètres qui permettent à l'œuvre de se générer elle-même, souvent de manière aléatoire ou en réponse à des entrées externes.<br><br>Les artistes génératifs utilisent des logiciels, des langages de programmation et des techniques de codage pour créer des systèmes qui génèrent des compositions visuelles, des sculptures, de la musique, des poèmes et bien d'autres formes d'art. Ces systèmes peuvent être basés sur des algorithmes mathématiques, des réseaux neuronaux, des automates cellulaires ou d'autres modèles computationnels.<br><br>L'art génératif offre des possibilités infinies de création, car les œuvres peuvent être générées à l'infini avec des variations subtiles ou drastiques à chaque itération. Les artistes génératifs peuvent définir des règles précises pour contrôler les formes, les couleurs, les textures, les motifs ou les mouvements, ou bien laisser une plus grande place à l'imprévisibilité et à l'émergence de l'inattendu.<br><br>Les œuvres d'art génératif sont souvent caractérisées par leur nature dynamique, évolutive et interactive. Quelques exemples d'art génératif comprennent des installations lumineuses qui se modifient en fonction des mouvements du public, des compositions musicales générées par des algorithmes complexes, des paysages visuels en constante évolution basés sur des règles mathématiques, des sculptures générées par ordinateur imprimées en 3D et des peintures numériques générées à partir d'ensembles de données.<br><br>J’ai eu l'opportunité d'engager une discussion avec Jon McCormack, un artiste et chercheur en informatique basé en Australie.<br><br>Jon McCormack : <br>Jon McCormack est un artiste et chercheur spécialisé dans l'art génératif, la musique et l'intelligence artificielle. Il explore les possibilités de créer des formes de vie artificielles en s'inspirant de la complexité de la nature. Ses œuvres ont été exposées dans des galeries et musées renommés à travers le monde, et il a remporté de nombreux prix dans les domaines de l'art médiatique et de la recherche informatique. Il est également un universitaire respecté, avec ses travaux publiés dans des revues scientifiques de premier plan. En tant que fondateur et directeur de SensiLab, il dirige des recherches transdisciplinaires sur les technologies créatives à l'université Monash en Australie. Son parcours et ses réalisations témoignent de son influence dans le domaine de l'art numérique et de son expertise en informatique.<br><br>Retranscription de nos échanges : <br>Enora : Quels outils et technologies utilisez-vous ?<br>Jon McCormak : “Largely my own software (written in C/C++, Python or Java). I use Processing for sketches and Cinema4D for 3D work.” - J’utilise principalement mon propre logiciel, écrit en C/C++, Python ou Java. J'utilise Processing pour mes esquisses (sketches) et Cinema4D pour mon travail en 3D.<br>Enora : Dans quelle mesure les mathématiques, la science ou la technologie influencent-elles votre art génératif ?<br>Jon McCormak : “ Science tries to explain how the world is, so I'm influenced by scientific thought about the world and our place in it (e.g. evolution) from a philosophical perspective (you can read a book like Dennett's \"Darwins dangerous idea\" as an example). I studied maths at university and its a great tool for clarifying your thinking. I also find a lot from other disciplines so I wouldn't say science & technology are my only influences at all .” - La science essaie d'expliquer comment le monde est, donc je suis influencé(e) par la pensée scientifique sur le monde et notre place dedans (par exemple, l'évolution) d'un point de vue philosophique (vous pouvez lire un livre comme \"Darwin's Dangerous Idea\" de Dennett comme exemple). J'ai étudié les mathématiques à l'université et c'est un excellent outil pour clarifier sa pensée. Je trouve également beaucoup d'inspiration dans d'autres disciplines, donc je ne dirais pas que la science et la technologie sont mes seules influences.<br>Enora : Comment incorporez-vous des éléments de hasard ou de chance dans votre art ?<br>Jon McCormak : “This is a simple question with a very complex answer! It comes down to what \"randomness\" really means. I certainly use randomness in the software I write, but its usually very specific and it doesn't mean the results are random at all :-)” - C'est une question simple avec une réponse très complexe! Tout dépend de ce que l'on entend par \"aléatoire\". J'utilise des éléments de hasard dans les logiciels que j'écris, mais c'est généralement très spécifique et cela ne signifie pas du tout que les résultats sont réellement aléatoires :-).<br>Enora : En quoi votre art se distingue-t-il de l'art traditionnel ou de l'art numérique non-génératif ?<br>Jon McCormak : “Generative art is about making a process so in many ways its closely connected to conceptual art, except that the process is usually enacted and realises something.” - L'art génératif consiste à créer un processus, et à bien des égards, il est étroitement lié à l'art conceptuel, à la différence que le processus est généralement mis en œuvre et réalise quelque chose.<br>Enora : Quels sont les défis ou obstacles auxquels vous êtes confronté(e) ?<br>Jon McCormak : “Time mainly!” – Le temps principalement.<br>",
-          "type": ""
+          "subSubChapters": [
+            {
+              "id": 11,
+              "description":"L'art génératif est une forme d'expression artistique qui repose sur l'utilisation de systèmes informatiques ou d'algorithmes pour créer des œuvres d'art autonomes et évolutives. Contrairement à d'autres formes d'art où l'artiste crée manuellement chaque détail, l'art génératif se concentre sur la création de règles et de paramètres qui permettent à l'œuvre de se générer elle-même, souvent de manière aléatoire ou en réponse à des entrées externes." ,
+              "type": "text-short"
+            },{
+              "id": 12,
+              "description":"Les artistes génératifs utilisent des logiciels, des langages de programmation et des techniques de codage pour créer des systèmes qui génèrent des compositions visuelles, des sculptures, de la musique, des poèmes et bien d'autres formes d'art. Ces systèmes peuvent être basés sur des algorithmes mathématiques, des réseaux neuronaux, des automates cellulaires ou d'autres modèles computationnels." ,
+              "type": "text-short"
+            },{
+              "id": 13,
+              "description":"L'art génératif offre des possibilités infinies de création, car les œuvres peuvent être générées à l'infini avec des variations subtiles ou drastiques à chaque itération. Les artistes génératifs peuvent définir des règles précises pour contrôler les formes, les couleurs, les textures, les motifs ou les mouvements, ou bien laisser une plus grande place à l'imprévisibilité et à l'émergence de l'inattendu." ,
+              "type": "text-short"
+            },{
+              "id": 14,
+              "description": "Les œuvres d'art génératif sont souvent caractérisées par leur nature dynamique, évolutive et interactive. Quelques exemples d'art génératif comprennent des installations lumineuses qui se modifient en fonction des mouvements du public, des compositions musicales générées par des algorithmes complexes, des paysages visuels en constante évolution basés sur des règles mathématiques, des sculptures générées par ordinateur imprimées en 3D et des peintures numériques générées à partir d'ensembles de données.",
+              "type": "text-short"
+            },{
+              "id": 15,
+              "description":"Jon McCormack est un artiste et chercheur spécialisé dans l'art génératif, la musique et l'intelligence artificielle. Il explore les possibilités de créer des formes de vie artificielles en s'inspirant de la complexité de la nature. Ses œuvres ont été exposées dans des galeries et musées renommés à travers le monde, et il a remporté de nombreux prix dans les domaines de l'art médiatique et de la recherche informatique. Il est également un universitaire respecté, avec ses travaux publiés dans des revues scientifiques de premier plan. En tant que fondateur et directeur de SensiLab, il dirige des recherches transdisciplinaires sur les technologies créatives à l'université Monash en Australie. Son parcours et ses réalisations témoignent de son influence dans le domaine de l'art numérique et de son expertise en informatique." ,
+              "type": "text-short"
+            },{
+              "id": 16,
+              "description": "J’ai eu l'opportunité d'engager une discussion avec lui, voici la retranscription de notre échange : \nEnora : Quels outils et technologies utilisez-vous ?\nJon McCormak : “Largely my own software (written in C/C++, Python or Java). I use Processing for sketches and Cinema4D for 3D work.” - J’utilise principalement mon propre logiciel, écrit en C/C++, Python ou Java. J'utilise Processing pour mes esquisses (sketches) et Cinema4D pour mon travail en 3D.\nEnora : Dans quelle mesure les mathématiques, la science ou la technologie influencent-elles votre art génératif ?\nJon McCormak : “ Science tries to explain how the world is, so I'm influenced by scientific thought about the world and our place in it (e.g. evolution) from a philosophical perspective (you can read a book like Dennett's \"Darwins dangerous idea\" as an example). I studied maths at university and its a great tool for clarifying your thinking. I also find a lot from other disciplines so I wouldn't say science & technology are my only influences at all .” - La science essaie d'expliquer comment le monde est, donc je suis influencé(e) par la pensée scientifique sur le monde et notre place dedans (par exemple, l'évolution) d'un point de vue philosophique (vous pouvez lire un livre comme \"Darwin's Dangerous Idea\" de Dennett comme exemple). J'ai étudié les mathématiques à l'université et c'est un excellent outil pour clarifier sa pensée. Je trouve également beaucoup d'inspiration dans d'autres disciplines, donc je ne dirais pas que la science et la technologie sont mes seules influences.\nEnora : Comment incorporez-vous des éléments de hasard ou de chance dans votre art ?\nJon McCormak : “This is a simple question with a very complex answer! It comes down to what \"randomness\" really means. I certainly use randomness in the software I write, but its usually very specific and it doesn't mean the results are random at all :-)” - C'est une question simple avec une réponse très complexe! Tout dépend de ce que l'on entend par \"aléatoire\". J'utilise des éléments de hasard dans les logiciels que j'écris, mais c'est généralement très spécifique et cela ne signifie pas du tout que les résultats sont réellement aléatoires :-).\nEnora : En quoi votre art se distingue-t-il de l'art traditionnel ou de l'art numérique non-génératif ?\nJon McCormak : “Generative art is about making a process so in many ways its closely connected to conceptual art, except that the process is usually enacted and realises something.” - L'art génératif consiste à créer un processus, et à bien des égards, il est étroitement lié à l'art conceptuel, à la différence que le processus est généralement mis en œuvre et réalise quelque chose.\nEnora : Quels sont les défis ou obstacles auxquels vous êtes confronté(e) ?\nJon McCormak : “Time mainly!” – Le temps principalement.\n",
+              "type": "text-short"
+            }
+          ]
         },
         {
           "id": 6,
           "titre": "Crypto art et NFT",
-          "imageURL": "chemin/vers/image4.jpg",
-          "description": "Le crypto art et les NFT (Non-Fungible Tokens) représentent une révolution dans le monde de l'art numérique en introduisant des concepts uniques de propriété, de rareté et de traçabilité grâce à la technologie de la blockchain. Une blockchain est une technologie de stockage et de transmission d'informations de manière décentralisée et sécurisée. Elle repose sur un réseau de participants (ou nœuds) qui vérifient et enregistrent les transactions dans des blocs de données, formant ainsi une chaîne de blocs. Le crypto art fait référence à des œuvres d'art numériques créées et échangées en utilisant des cryptomonnaies comme le Bitcoin ou l'Ethereum. Les NFT sont des jetons numériques uniques qui représentent la propriété ou la provenance d'un actif numérique spécifique, tel qu'une œuvre d'art, un fichier multimédia ou un objet virtuel.<br><br>Les artistes crypto utilisent des logiciels de création numérique pour produire des œuvres d'art uniques ou en édition limitée, qu'ils ensuite associent à des NFT. Chaque NFT est enregistré sur une blockchain, ce qui garantit l'authenticité, la propriété et l'unicité de l'œuvre. Grâce à la nature immuable de la blockchain, les informations sur la provenance et les transactions associées à une œuvre d'art sont enregistrées de manière transparente, ce qui permet une traçabilité sans précédent.<br><br>L'un des aspects les plus intéressants du crypto art et des NFT est la possibilité pour les artistes de percevoir des redevances sur les ventes secondaires de leurs œuvres. Chaque fois qu'un NFT est vendu à un nouveau propriétaire, l'artiste peut être automatiquement rémunéré par un pourcentage du prix de vente, ce qui leur permet de bénéficier des éventuelles plus-values de leurs œuvres à mesure qu'elles se revendent sur le marché.<br><br>Les NFT ont également créé de nouvelles opportunités pour les collectionneurs d'art numérique. Les amateurs peuvent acheter des NFT pour posséder des œuvres d'art exclusives, les afficher numériquement dans des galeries virtuelles ou les revendre sur des plateformes spécialisées. <br><br>Le crypto art et les NFT ont suscité un engouement croissant dans le domaine de l'art numérique, avec des ventes record et une communauté d'artistes et de collectionneurs en expansion constante. Cependant, leur émergence a également soulevé des questions sur la durabilité environnementale due à la consommation énergétique élevée des blockchains et sur les problèmes de droits d'auteur et de propriété intellectuelle.<br>",
-          "type": ""
+          "subSubChapters": [
+            {
+              "id":17,
+              "description":"Le crypto art et les NFT (Non-Fungible Tokens) représentent une révolution dans le monde de l'art numérique en introduisant des concepts uniques de propriété, de rareté et de traçabilité grâce à la technologie de la blockchain. Une blockchain est une technologie de stockage et de transmission d'informations de manière décentralisée et sécurisée. Elle repose sur un réseau de participants (ou nœuds) qui vérifient et enregistrent les transactions dans des blocs de données, formant ainsi une chaîne de blocs. Le crypto art fait référence à des œuvres d'art numériques créées et échangées en utilisant des cryptomonnaies comme le Bitcoin ou l'Ethereum. Les NFT sont des jetons numériques uniques qui représentent la propriété ou la provenance d'un actif numérique spécifique, tel qu'une œuvre d'art, un fichier multimédia ou un objet virtuel.",
+              "type": "text-short"
+            },{
+              "id":18,
+              "description":"Les artistes crypto utilisent des logiciels de création numérique pour produire des œuvres d'art uniques ou en édition limitée, qu'ils ensuite associent à des NFT. Chaque NFT est enregistré sur une blockchain, ce qui garantit l'authenticité, la propriété et l'unicité de l'œuvre. Grâce à la nature immuable de la blockchain, les informations sur la provenance et les transactions associées à une œuvre d'art sont enregistrées de manière transparente, ce qui permet une traçabilité sans précédent.",
+              "type": "text-short"
+            },{
+              "id":19,
+              "description":"L'un des aspects les plus intéressants du crypto art et des NFT est la possibilité pour les artistes de percevoir des redevances sur les ventes secondaires de leurs œuvres. Chaque fois qu'un NFT est vendu à un nouveau propriétaire, l'artiste peut être automatiquement rémunéré par un pourcentage du prix de vente, ce qui leur permet de bénéficier des éventuelles plus-values de leurs œuvres à mesure qu'elles se revendent sur le marché.",
+              "type": "text-short"
+            },{
+              "id":20,
+              "description":"Les NFT ont également créé de nouvelles opportunités pour les collectionneurs d'art numérique. Les amateurs peuvent acheter des NFT pour posséder des œuvres d'art exclusives, les afficher numériquement dans des galeries virtuelles ou les revendre sur des plateformes spécialisées. ",
+              "type": "text-short"
+            },{
+              "id":21,
+              "description":"Le crypto art et les NFT ont suscité un engouement croissant dans le domaine de l'art numérique, avec des ventes record et une communauté d'artistes et de collectionneurs en expansion constante. Cependant, leur émergence a également soulevé des questions sur la durabilité environnementale due à la consommation énergétique élevée des blockchains et sur les problèmes de droits d'auteur et de propriété intellectuelle.",
+              "type": "text-short"
+            }
+          ]
         },
-
         {
           "id": 7,
           "titre": "Pixel art",
-          "imageURL": "chemin/vers/image4.jpg",
-          "description": "Le pixel art est une forme d'art numérique qui trouve ses origines dans les premiers jeux vidéo et graphismes informatiques. Il se caractérise par l'utilisation de pixels individuels comme éléments de base pour créer des images et des animations.<br><br>Le pixel art est créé en manipulant et en plaçant des pixels de manière précise, souvent à la main, pour former des motifs, des personnages et des décors. Il tire parti de la nature graphique des écrans, où chaque pixel représente un point d'information visuelle.<br><br>L'une des principales caractéristiques du pixel art est sa résolution basse ou limitée, typiquement inférieure à celle des images haute définition d'aujourd'hui. Cette esthétique rétro est souvent associée à une nostalgie pour les jeux vidéo classiques des années 80 et 90, mais le pixel art continue également d'être utilisé comme forme d'expression artistique contemporaine.<br><br>Les artistes pixel art utilisent des logiciels spécifiques ou des éditeurs d'images pour créer leurs œuvres. Ils peuvent utiliser une palette de couleurs limitée, des outils de zoom pour travailler à l'échelle pixel par pixel et des techniques telles que le mélange de couleurs pour créer des effets de dégradé ou de texture.<br><br>Le pixel art peut prendre de nombreuses formes, notamment des illustrations statiques, des environnements de jeux vidéo, des logos, des icônes et des personnages. Il est également utilisé dans des animations, des cinématiques ou des visuels pour des jeux indépendants, des applications mobiles et d'autres projets numériques.<br><br>Le charme du pixel art réside dans sa simplicité et sa capacité à transmettre des émotions et des formes reconnaissables malgré les limites de résolution. Les artistes pixel art doivent faire preuve de créativité pour exploiter les contraintes de cette forme d'art et créer des compositions esthétiques et expressives.<br><br>Le pixel art a connu une résurgence dans la culture populaire et est apprécié par les amateurs de jeux vidéo rétro, ainsi que par les artistes et les designers à la recherche d'un style unique et distinctif. Il incarne une fusion entre l'art, la technologie et la nostalgie, et continue d'évoluer en tant que forme d'expression artistique dynamique et diversifiée.<br>",
-          "type": ""
-        },
-        {
+          "subSubChapters": [
+            {
+              "id":22,
+              "description":"Le pixel art est une forme d'art numérique qui trouve ses origines dans les premiers jeux vidéo et graphismes informatiques. Il se caractérise par l'utilisation de pixels individuels comme éléments de base pour créer des images et des animations.",
+              "type": "text-short"
+            },{
+              "id":23,
+              "description":"Le pixel art est créé en manipulant et en plaçant des pixels de manière précise, souvent à la main, pour former des motifs, des personnages et des décors. Il tire parti de la nature graphique des écrans, où chaque pixel représente un point d'information visuelle.",
+              "type": "text-short"
+            },{
+              "id":24,
+              "description":"L'une des principales caractéristiques du pixel art est sa résolution basse ou limitée, typiquement inférieure à celle des images haute définition d'aujourd'hui. Cette esthétique rétro est souvent associée à une nostalgie pour les jeux vidéo classiques des années 80 et 90, mais le pixel art continue également d'être utilisé comme forme d'expression artistique contemporaine.",
+              "type": "text-short"
+            },{
+              "id":25,
+              "description":"Les artistes pixel art utilisent des logiciels spécifiques ou des éditeurs d'images pour créer leurs œuvres. Ils peuvent utiliser une palette de couleurs limitée, des outils de zoom pour travailler à l'échelle pixel par pixel et des techniques telles que le mélange de couleurs pour créer des effets de dégradé ou de texture.",
+              "type": "text-short"
+            },{
+              "id":26,
+              "description":"Le pixel art peut prendre de nombreuses formes, notamment des illustrations statiques, des environnements de jeux vidéo, des logos, des icônes et des personnages. Il est également utilisé dans des animations, des cinématiques ou des visuels pour des jeux indépendants, des applications mobiles et d'autres projets numériques.",
+              "type": "text-short"
+            },{
+              "id":27,
+              "description":"Le charme du pixel art réside dans sa simplicité et sa capacité à transmettre des émotions et des formes reconnaissables malgré les limites de résolution. Les artistes pixel art doivent faire preuve de créativité pour exploiter les contraintes de cette forme d'art et créer des compositions esthétiques et expressives.",
+              "type": "text-short"
+            },{
+              "id":28,
+              "description":"Le pixel art a connu une résurgence dans la culture populaire et est apprécié par les amateurs de jeux vidéo rétro, ainsi que par les artistes et les designers à la recherche d'un style unique et distinctif. Il incarne une fusion entre l'art, la technologie et la nostalgie, et continue d'évoluer en tant que forme d'expression artistique dynamique et diversifiée.",
+              "type": "text-short"
+            }
+          ]
+        },{
           "id": 8,
           "titre": "Sculpture digitale",
-          "imageURL": "chemin/vers/image4.jpg",
-          "description": "La sculpture digitale, également connue sous le nom de sculpture numérique, est une forme d'expression artistique qui utilise des logiciels et des outils numériques pour créer des sculptures en trois dimensions. Contrairement à la sculpture traditionnelle qui implique la manipulation de matériaux physiques tels que l'argile, la pierre ou le métal, la sculpture digitale se déroule entièrement dans un environnement virtuel.<br><br>Les artistes de sculpture digitale utilisent des logiciels spécialisés de modélisation et de sculpture 3D pour créer des formes tridimensionnelles en manipulant des maillages de points, de courbes ou de polygones. Ces logiciels offrent des fonctionnalités avancées, telles que le modelage, la sculpture, le texturage, l'animation et l'éclairage, permettant aux artistes de donner vie à leurs créations de manière réaliste ou stylisée.<br><br>La sculpture digitale offre une grande liberté artistique. Les artistes peuvent créer des sculptures réalistes, des formes abstraites, des personnages fantastiques, des créatures imaginaires ou des structures architecturales, sans être limités par les contraintes physiques des matériaux traditionnels. Ils peuvent expérimenter avec différentes textures, couleurs, échelles et formes, tout en bénéficiant de la facilité de modification et de manipulation offerte par le monde numérique.<br><br>Une caractéristique distinctive de la sculpture digitale est sa nature non matérielle. Les sculptures créées numériquement existent sous forme de fichiers 3D qui peuvent être visualisés sur des écrans d'ordinateur, des projecteurs ou même dans des environnements de réalité virtuelle. Elles peuvent également être utilisées pour la création de sculptures physiques en utilisant des techniques d'impression 3D.<br><br>La sculpture digitale permet également une collaboration facile entre les artistes et les autres professionnels de l'industrie créative, tels que les animateurs, les concepteurs de jeux vidéo ou les cinéastes. Les sculptures 3D numériques peuvent être intégrées dans des projets multimédias, des films d'animation, des jeux vidéo, des publicités ou des visualisations architecturales.<br><br>Bien que la sculpture digitale ait ses propres avantages et possibilités, elle ne remplace pas complètement la sculpture traditionnelle. Les deux formes d'expression artistique peuvent coexister et se compléter mutuellement, chacune apportant ses propres qualités et perspectives uniques.<br><br>La sculpture digitale ouvre de nouvelles voies pour l'exploration artistique et la création de formes tridimensionnelles innovantes. Grâce à l'évolution constante des technologies numériques, la sculpture digitale continue de se développer et de repousser les limites de la créativité, offrant aux artistes un nouveau moyen passionnant d'exprimer leur vision artistique.<br>",
-          "type": ""
-        },
-        {
+          "subSubChapters": [
+            {
+              "id":29,
+              "description":"La sculpture digitale, également connue sous le nom de sculpture numérique, est une forme d'expression artistique qui utilise des logiciels et des outils numériques pour créer des sculptures en trois dimensions. Contrairement à la sculpture traditionnelle qui implique la manipulation de matériaux physiques tels que l'argile, la pierre ou le métal, la sculpture digitale se déroule entièrement dans un environnement virtuel.",
+              "type": "text-short"
+            },{
+              "id":30,
+              "description":"Les artistes de sculpture digitale utilisent des logiciels spécialisés de modélisation et de sculpture 3D pour créer des formes tridimensionnelles en manipulant des maillages de points, de courbes ou de polygones. Ces logiciels offrent des fonctionnalités avancées, telles que le modelage, la sculpture, le texturage, l'animation et l'éclairage, permettant aux artistes de donner vie à leurs créations de manière réaliste ou stylisée.",
+              "type": "text-short"
+            },{
+              "id":31,
+              "description":"La sculpture digitale offre une grande liberté artistique. Les artistes peuvent créer des sculptures réalistes, des formes abstraites, des personnages fantastiques, des créatures imaginaires ou des structures architecturales, sans être limités par les contraintes physiques des matériaux traditionnels. Ils peuvent expérimenter avec différentes textures, couleurs, échelles et formes, tout en bénéficiant de la facilité de modification et de manipulation offerte par le monde numérique.",
+              "type": "text-short"
+            },{
+              "id":32,
+              "description":"Une caractéristique distinctive de la sculpture digitale est sa nature non matérielle. Les sculptures créées numériquement existent sous forme de fichiers 3D qui peuvent être visualisés sur des écrans d'ordinateur, des projecteurs ou même dans des environnements de réalité virtuelle. Elles peuvent également être utilisées pour la création de sculptures physiques en utilisant des techniques d'impression 3D.",
+              "type": "text-short"
+            },{
+              "id":33,
+              "description":"La sculpture digitale permet également une collaboration facile entre les artistes et les autres professionnels de l'industrie créative, tels que les animateurs, les concepteurs de jeux vidéo ou les cinéastes. Les sculptures 3D numériques peuvent être intégrées dans des projets multimédias, des films d'animation, des jeux vidéo, des publicités ou des visualisations architecturales.",
+              "type": "text-short"
+            },{
+              "id":33,
+              "description":"Bien que la sculpture digitale ait ses propres avantages et possibilités, elle ne remplace pas complètement la sculpture traditionnelle. Les deux formes d'expression artistique peuvent coexister et se compléter mutuellement, chacune apportant ses propres qualités et perspectives uniques.",
+              "type": "text-short"
+            },{
+              "id":34,
+              "description":"La sculpture digitale ouvre de nouvelles voies pour l'exploration artistique et la création de formes tridimensionnelles innovantes. Grâce à l'évolution constante des technologies numériques, la sculpture digitale continue de se développer et de repousser les limites de la créativité, offrant aux artistes un nouveau moyen passionnant d'exprimer leur vision artistique.",
+              "type": "text-short"
+            }
+          ]
+        },{
           "id":9,
           "titre": "Sites internet",
-          "imageURL": "chemin/vers/image4.jpg",
-          "description": "De nos jours, de nombreux artistes et designers utilisent le web pour créer des expériences artistiques uniques et engageantes. Le site internet peut être utilisé comme un support pour exprimer une vision artistique, transmettre un message, ou susciter des émotions chez les spectateurs.<br><br>L'art sur le web peut prendre de nombreuses formes : des compositions visuelles innovantes, des animations interactives, des expériences sonores immersives, des installations en ligne, et bien plus encore. Les artistes utilisent des langages de programmation tels que HTML, CSS, JavaScript, et des frameworks comme Angular, pour créer des sites web qui combinent esthétique, interactivité et narrativité.<br><br>La nature interactive du web offre également de nouvelles possibilités pour l'expression artistique. Les visiteurs peuvent interagir avec le site, explorer différentes sections, cliquer sur des éléments interactifs, et ainsi participer activement à l'expérience artistique. Cela permet aux artistes de créer des œuvres d'art qui transcendent les limites des médias traditionnels et qui engagent le spectateur de manière plus immersive.<br><br>Il convient de noter que la perception d'un site internet en tant qu'œuvre d'art peut varier selon les individus et les contextes. Certains peuvent considérer un site internet comme une forme d'art contemporain, tandis que d'autres peuvent le voir davantage comme un outil de communication ou de marketing. Cependant, de nombreux artistes et institutions d'art reconnaissent le potentiel créatif du web et considèrent les sites internet artistiques comme des œuvres à part entière.<br><br>En fin de compte, la question de savoir si un site internet est une œuvre d'art dépend de la conception artistique, de l'intention de l'artiste et de la réception par le public. Le web offre une plateforme dynamique et accessible pour la création artistique, permettant de repousser les limites de l'art traditionnel et d'explorer de nouvelles formes d'expression.<br>",
-          "type": ""
-        },
-        {
-          "id":9,
+          "subSubChapters": [
+            {
+              "id":35,
+              "description": "De nos jours, de nombreux artistes et designers utilisent le web pour créer des expériences artistiques uniques et engageantes. Le site internet peut être utilisé comme un support pour exprimer une vision artistique, transmettre un message, ou susciter des émotions chez les spectateurs.",
+              "type": "text-short"
+            },{
+              "id":36,
+              "description": "L'art sur le web peut prendre de nombreuses formes : des compositions visuelles innovantes, des animations interactives, des expériences sonores immersives, des installations en ligne, et bien plus encore. Les artistes utilisent des langages de programmation tels que HTML, CSS, JavaScript, et des frameworks comme Angular, pour créer des sites web qui combinent esthétique, interactivité et narrativité.",
+              "type": "text-short"
+            },{
+              "id":37,
+              "description": "La nature interactive du web offre également de nouvelles possibilités pour l'expression artistique. Les visiteurs peuvent interagir avec le site, explorer différentes sections, cliquer sur des éléments interactifs, et ainsi participer activement à l'expérience artistique. Cela permet aux artistes de créer des œuvres d'art qui transcendent les limites des médias traditionnels et qui engagent le spectateur de manière plus immersive.",
+              "type": "text-short"
+            },{
+              "id":38,
+              "description": "Il convient de noter que la perception d'un site internet en tant qu'œuvre d'art peut varier selon les individus et les contextes. Certains peuvent considérer un site internet comme une forme d'art contemporain, tandis que d'autres peuvent le voir davantage comme un outil de communication ou de marketing. Cependant, de nombreux artistes et institutions d'art reconnaissent le potentiel créatif du web et considèrent les sites internet artistiques comme des œuvres à part entière.",
+              "type": "text-short"
+            },{
+              "id":39,
+              "description": "En fin de compte, la question de savoir si un site internet est une œuvre d'art dépend de la conception artistique, de l'intention de l'artiste et de la réception par le public. Le web offre une plateforme dynamique et accessible pour la création artistique, permettant de repousser les limites de l'art traditionnel et d'explorer de nouvelles formes d'expression.",
+              "type": "text-short"
+            }
+          ]
+        },{
+          "id":10,
           "titre": "Conclusion",
-          "imageURL": "chemin/vers/image4.jpg",
-          "description": "Maintenant que nous avons découvert différentes formes d’art, que nous avons étudiés leurs particularités respectives, revenons à la problématique de ce rapport : Le code est-il l’avenir de l’art ?<br><br>La relation entre le code informatique et l'art est complexe et fascinante. Le code, en tant que langage informatique, est utilisé de multiples façons pour créer, modifier et présenter des œuvres d'art. La programmation devient ainsi un outil puissant pour les artistes, leur permettant d'explorer de nouvelles formes d'expression et de repousser les limites traditionnelles de l'art.<br><br>Une façon dont le code est utilisé dans la création artistique est à travers la génération d'art algorithmique. Les artistes utilisent des algorithmes pour créer des œuvres visuelles ou sonores, en définissant des règles et des paramètres que l'ordinateur suit pour générer des formes, des motifs et des compositions uniques. Cette approche permet aux artistes de collaborer avec l'intelligence artificielle pour créer des œuvres qui ne seraient pas possibles autrement.<br><br>Le code est également utilisé pour modifier des œuvres existantes. Les artistes numériques peuvent manipuler des images, des vidéos ou des sons à l'aide de logiciels de traitement numérique, en utilisant des algorithmes et des scripts pour appliquer des effets spéciaux, des filtres ou des transformations. Cela ouvre de nouvelles possibilités pour les artistes traditionnels qui peuvent intégrer des éléments numériques dans leurs œuvres, créant ainsi des expériences multimédias interactives et immersives.<br><br>L'impact du numérique sur l'art traditionnel est un sujet qui suscite des débats. D'un côté, certains voient le numérique comme une menace pour l'authenticité de l'art, arguant que la facilité avec laquelle les œuvres peuvent être copiées et modifiées numériquement affaiblit leur valeur artistique. D'un autre côté, le numérique offre de nouvelles opportunités d'accessibilité et de diffusion de l'art. Les artistes peuvent partager leurs œuvres en ligne, atteignant un public mondial sans les contraintes géographiques des galeries et des musées traditionnels.<br><br>L'utilisation du code dans la création artistique présente également des avantages et des limites. L'un des avantages majeurs est la possibilité de créer des œuvres génératives qui évoluent avec le temps ou en interaction avec le public. Les artistes peuvent programmer des algorithmes qui répondent aux actions des spectateurs, créant ainsi des expériences uniques et personnalisées. Cependant, cela soulève également des questions éthiques et philosophiques sur le rôle de l'artiste dans le processus créatif. Jusqu'à quel point le rôle de l'artiste est-il réduit lorsque le code prend en charge une partie de la création ?<br><br>En fin de compte, la relation entre le code et l'art est une exploration continue. Le code informatique offre de nouvelles perspectives aux artistes et redéfinit les frontières de l'art. Alors que nous continuons à évoluer dans un monde numérique, il est essentiel de réfléchir aux implications éthiques, philosophiques et esthétiques de cette relation complexe, en encourageant un dialogue ouvert et en explorant de nouvelles voies pour l'expression artistique.<br><br>Dans le but d'approfondir ma compréhension de l'art génératif, j'ai entrepris d'apprendre à utiliser P5.js, une bibliothèque spécifiquement conçue pour l'art génératif, qui est basée sur le langage JavaScript. Cette démarche est démontrée dans la suite de mon rapport.<br>",
-          "type": ""
+          "subSubChapters": [
+            {
+              "id":40,
+              "description": "Maintenant que nous avons découvert différentes formes d’art, que nous avons étudiés leurs particularités respectives, revenons à la problématique de ce rapport : Le code est-il l’avenir de l’art ?",
+              "type": "text-short"
+            },{
+              "id":41,
+              "description": "La relation entre le code informatique et l'art est complexe et fascinante. Le code, en tant que langage informatique, est utilisé de multiples façons pour créer, modifier et présenter des œuvres d'art. La programmation devient ainsi un outil puissant pour les artistes, leur permettant d'explorer de nouvelles formes d'expression et de repousser les limites traditionnelles de l'art.",
+              "type": "text-short"
+            },{
+              "id":42,
+              "description": "Une façon dont le code est utilisé dans la création artistique est à travers la génération d'art algorithmique. Les artistes utilisent des algorithmes pour créer des œuvres visuelles ou sonores, en définissant des règles et des paramètres que l'ordinateur suit pour générer des formes, des motifs et des compositions uniques. Cette approche permet aux artistes de collaborer avec l'intelligence artificielle pour créer des œuvres qui ne seraient pas possibles autrement.",
+              "type": "text-short"
+            },{
+              "id":43,
+              "description": "Le code est également utilisé pour modifier des œuvres existantes. Les artistes numériques peuvent manipuler des images, des vidéos ou des sons à l'aide de logiciels de traitement numérique, en utilisant des algorithmes et des scripts pour appliquer des effets spéciaux, des filtres ou des transformations. Cela ouvre de nouvelles possibilités pour les artistes traditionnels qui peuvent intégrer des éléments numériques dans leurs œuvres, créant ainsi des expériences multimédias interactives et immersives.",
+              "type": "text-short"
+            },{
+              "id":44,
+              "description": "L'impact du numérique sur l'art traditionnel est un sujet qui suscite des débats. D'un côté, certains voient le numérique comme une menace pour l'authenticité de l'art, arguant que la facilité avec laquelle les œuvres peuvent être copiées et modifiées numériquement affaiblit leur valeur artistique. D'un autre côté, le numérique offre de nouvelles opportunités d'accessibilité et de diffusion de l'art. Les artistes peuvent partager leurs œuvres en ligne, atteignant un public mondial sans les contraintes géographiques des galeries et des musées traditionnels.",
+              "type": "text-short"
+            },{
+              "id":45,
+              "description": "L'utilisation du code dans la création artistique présente également des avantages et des limites. L'un des avantages majeurs est la possibilité de créer des œuvres génératives qui évoluent avec le temps ou en interaction avec le public. Les artistes peuvent programmer des algorithmes qui répondent aux actions des spectateurs, créant ainsi des expériences uniques et personnalisées. Cependant, cela soulève également des questions éthiques et philosophiques sur le rôle de l'artiste dans le processus créatif. Jusqu'à quel point le rôle de l'artiste est-il réduit lorsque le code prend en charge une partie de la création ?",
+              "type": "text-short"
+            },{
+              "id":46,
+              "description": "En fin de compte, la relation entre le code et l'art est une exploration continue. Le code informatique offre de nouvelles perspectives aux artistes et redéfinit les frontières de l'art. Alors que nous continuons à évoluer dans un monde numérique, il est essentiel de réfléchir aux implications éthiques, philosophiques et esthétiques de cette relation complexe, en encourageant un dialogue ouvert et en explorant de nouvelles voies pour l'expression artistique.",
+              "type": "text-short"
+            },{
+              "id":47,
+              "description": "Dans le but d'approfondir ma compréhension de l'art génératif, j'ai entrepris d'apprendre à utiliser P5.js, une bibliothèque spécifiquement conçue pour l'art génératif, qui est basée sur le langage JavaScript. Cette démarche est démontrée dans la suite de mon rapport.",
+              "type": "text-short"
+            }
+          ]
         }
       ]
-    },
-    {
+    },{
       "id": 3,
       "titre": "Apprentissage de la génération d'art avec P5.js",
       "subChapters": [
         {
-          "id": 10,
-          "titre": "Présentation de P5.js",
-          "imageURL": "chemin/vers/image1.jpg",
-          "description": "P5.js est une bibliothèque de traitement créatif et de programmation graphique en JavaScript, conçue pour faciliter la création d'art numérique et d'animations interactives pour le web. Elle est basée sur la bibliothèque Processing (environnement de développement open-source spécialement conçu pour la création d'art et de design interactifs), largement utilisée dans le domaine de la création artistique et du design graphique. P5.js permet aux artistes, designers, programmeurs et étudiants en informatique d'exprimer leur créativité en utilisant des fonctionnalités de dessin, de manipulation d'images, de vidéos et de sons. <br><br>En utilisant P5.js, les artistes peuvent créer des œuvres d'art interactives qui répondent à l'interaction de l'utilisateur, en utilisant des événements de souris, de clavier et de toucher. P5.js est également une excellente plateforme pour apprendre les bases de la programmation en JavaScript.<br><br>P5.js est open source et gratuit, ce qui signifie que n'importe qui peut l'utiliser, le modifier et le partager en toute liberté. En raison de sa popularité croissante, la communauté P5.js est en constante expansion, il y a donc de plus en plus de ressources, de tutoriels et de projets à découvrir et à expérimenter.<br>",
-          "type": ""
-        },
-        {
           "id": 11,
+          "titre": "Présentation de P5.js",
+          "subSubChapters": [
+            {
+              "id":48,
+              "description":"P5.js est une bibliothèque de traitement créatif et de programmation graphique en JavaScript, conçue pour faciliter la création d'art numérique et d'animations interactives pour le web. Elle est basée sur la bibliothèque Processing (environnement de développement open-source spécialement conçu pour la création d'art et de design interactifs), largement utilisée dans le domaine de la création artistique et du design graphique. P5.js permet aux artistes, designers, programmeurs et étudiants en informatique d'exprimer leur créativité en utilisant des fonctionnalités de dessin, de manipulation d'images, de vidéos et de sons. " ,
+              "type": "text-short"
+            },{
+              "id":49,
+              "description":"En utilisant P5.js, les artistes peuvent créer des œuvres d'art interactives qui répondent à l'interaction de l'utilisateur, en utilisant des événements de souris, de clavier et de toucher. P5.js est également une excellente plateforme pour apprendre les bases de la programmation en JavaScript.",
+              "type": "text-short"
+            },{
+              "id":50,
+              "description":"P5.js est open source et gratuit, ce qui signifie que n'importe qui peut l'utiliser, le modifier et le partager en toute liberté. En raison de sa popularité croissante, la communauté P5.js est en constante expansion, il y a donc de plus en plus de ressources, de tutoriels et de projets à découvrir et à expérimenter.",
+              "type": "text-short"
+            }
+          ]
+        }, {
+          "id": 12,
           "titre": "Description de l'apprentissage de P5.js et des difficultés rencontrées",
-          "imageURL": "chemin/vers/image2.jpg",
-          "description": "Comme P5.js est une bibliothèque très complète, il peut être difficile de savoir par où commencer pour l'apprendre. Pour cette raison, j'ai décidé de suivre des tutoriels qui expliquent étape par étape comment générer de l'art avec P5.js.<br><br>Voici à quoi ressemble l’éditeur avant de commencer à coder quoi que ce soit.<br>Au début de mon apprentissage, j'ai commencé par comprendre l'utilisation des fonctions setup() et draw() dans P5.js. La fonction setup() est exécutée une seule fois, au lancement du programme, lorsque nous appuyons sur le bouton \"play\" en haut à gauche. En revanche, la fonction draw() est exécutée en boucle tant que le programme est en cours d'exécution, jusqu'à ce que nous l'arrêtions en appuyant sur le bouton carré en haut à gauche. C'est grâce à cette fonction que nous pouvons créer des animations.<br><br>La fonction createCanvas() nous permet de créer un \"canvas\" (une toile) avec les dimensions de notre choix. Elle prend donc deux arguments, la largeur et la hauteur du canvas en pixels. Cette fonction est généralement utilisée à l'intérieur de la fonction setup().<br><br>Ces trois fonctions (setup(), draw() et createCanvas()) sont couramment utilisées dans la plupart des sketches (un sketch étant un fichier JavaScript sur P5.js). Cependant, la bibliothèque propose de nombreuses autres fonctions, telles que des fonctions de couleur, de forme, d'événements ou encore de texte.<br><br>Pour explorer ces différentes catégories de fonctions, j'ai consulté la documentation de la bibliothèque et j'ai essayé de comprendre le fonctionnement de chaque fonction. Cela n'a pas été facile, car certaines de ces fonctions étaient assez complexes. Je n'ai pas pu me permettre de m'attarder sur chacune d'entre elles, car j'avais également besoin d'apprendre à utiliser un logiciel de dessin vectoriel et de créer un site web.<br>",
-          "type": " "
+          "subSubChapters": [
+            {
+              "id":51,
+              "description":"Comme P5.js est une bibliothèque très complète, il peut être difficile de savoir par où commencer pour l'apprendre. Pour cette raison, j'ai décidé de suivre des tutoriels qui expliquent étape par étape comment générer de l'art avec P5.js.",
+              "type": "text-short"
+            },{
+              "id":52,
+              "description":"Voici à quoi ressemble l’éditeur avant de commencer à coder quoi que ce soit.\nAu début de mon apprentissage, j'ai commencé par comprendre l'utilisation des fonctions setup() et draw() dans P5.js. La fonction setup() est exécutée une seule fois, au lancement du programme, lorsque nous appuyons sur le bouton \"play\" en haut à gauche. En revanche, la fonction draw() est exécutée en boucle tant que le programme est en cours d'exécution, jusqu'à ce que nous l'arrêtions en appuyant sur le bouton carré en haut à gauche. C'est grâce à cette fonction que nous pouvons créer des animations.\n",
+              "type": "img"
+            },{
+              "id":53,
+              "description":"",
+              "type": "text-short"
+            }
+          ]
         },
         {
-          "id": 12,
+          "id": 13,
           "titre": "Conclusion",
           "imageURL": "chemin/vers/image2.jpg",
           "description": "En fouillant dans la documentation et testant plusieurs fonctions, j’ai découvert la richesse de cette bibliothèque. Avec son large éventail de fonctions, P5.js offre de nombreuses possibilités pour les artistes qui souhaitent s'exprimer à travers le code.<br><br>L'un des avantages majeurs de P5.js est sa facilité d'utilisation, même pour ceux qui n'ont jamais écrit une seule ligne de code. Grâce à sa syntaxe accessible et à sa documentation complète, il est relativement simple de prendre en main la bibliothèque et de commencer à créer des visuels dès le départ. Même avec peu de connaissances en programmation, il est possible de produire des résultats visuellement captivants.<br><br>Un autre avantage de P5.js est sa capacité à générer des visuels de manière efficace avec un minimum de code. Grâce à sa riche collection de fonctions, il est possible de réaliser des effets visuels complexes en utilisant relativement peu de lignes de code. Cela permet aux artistes de se concentrer davantage sur la créativité et l'expression artistique, plutôt que de se perdre dans des détails techniques complexes.<br><br>En utilisant P5.js, les artistes peuvent facilement manipuler des formes géométriques, des couleurs, des images, et des animations pour créer des œuvres d'art numérique interactives et immersives. La bibliothèque offre également une intégration fluide avec les interactions utilisateur, ce qui permet de créer des expériences artistiques engageantes et participatives.<br><br>En résumé, P5.js se distingue par sa richesse de fonctionnalités et sa facilité d'utilisation, ce qui en fait un outil puissant pour les artistes qui souhaitent explorer le potentiel de l'art numérique. Que vous soyez un débutant ou un artiste expérimenté, P5.js offre une plateforme accessible et flexible pour donner vie à vos idées artistiques et créer des œuvres visuellement saisissantes.<br>",

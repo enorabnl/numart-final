@@ -1,5 +1,5 @@
 import {Component, Input} from '@angular/core';
-import {SubChapterModel} from "../../model/SubChapter.model";
+import {SubSubChapterModel} from "../../model/SubSubChapter.model";
 
 @Component({
   selector: 'app-img',
@@ -7,6 +7,4 @@ import {SubChapterModel} from "../../model/SubChapter.model";
   styleUrls: ['./img.component.scss']
 })
 export class ImgComponent {
-  @Input() subChapter!: SubChapterModel;
-
-}
+  @Input() subSubChapter!: SubSubChapterModel;}

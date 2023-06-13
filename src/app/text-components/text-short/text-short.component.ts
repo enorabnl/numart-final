@@ -1,5 +1,5 @@
 import {Component, Input} from '@angular/core';
-import {SubChapterModel} from "../../model/SubChapter.model";
+import {SubSubChapterModel} from "../../model/SubSubChapter.model";
 
 @Component({
   selector: 'app-text-short',
@@ -7,5 +7,5 @@ import {SubChapterModel} from "../../model/SubChapter.model";
   styleUrls: ['./text-short.component.scss']
 })
 export class TextShortComponent {
-  @Input() subChapter!: SubChapterModel;
+  @Input() subSubChapter!: SubSubChapterModel;
 }

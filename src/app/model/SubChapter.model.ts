@@ -1,10 +1,10 @@
+import { SubSubChapterModel } from "./SubSubChapter.model";
+
 export class SubChapterModel {
   constructor(
     public id: number,
     public titre: string,
-    public imageURL: string,
-    public description: string,
-    public type: string
+    public subSubChapters: SubSubChapterModel[]
   ) {}
 
   // Getter pour l'attribut id
@@ -26,34 +26,14 @@ export class SubChapterModel {
   set setTitre(titre: string) {
     this.titre = titre;
   }
-
-  // Getter pour l'attribut imageURL
-  get getImageURL(): string {
-    return this.imageURL;
+  // Getter pour l'attribut subChapters
+  get getSubSubChapters(): SubSubChapterModel[] {
+    return this.subSubChapters;
   }
 
-  // Setter pour l'attribut imageURL
-  set setImageURL(imageURL: string) {
-    this.imageURL = imageURL;
+  // Setter pour l'attribut subChapters
+  set setSubSubChapters(subSubChapters: SubSubChapterModel[]) {
+    this.subSubChapters = subSubChapters;
   }
 
-  // Getter pour l'attribut description
-  get getDescription(): string {
-    return this.description;
-  }
-
-  // Setter pour l'attribut description
-  set setDescription(description: string) {
-    this.description = description;
-  }
-
-  // Getter pour l'attribut type
-  get getType(): string {
-    return this.type;
-  }
-
-  // Setter pour l'attribut type
-  set setType(type: string) {
-    this.type = type;
-  }
 }
