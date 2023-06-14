@@ -1,15 +1,12 @@
 
 <div *ngIf="subSubChapter.type === 'text-short'">
   <app-text-short [subSubChapter]="subSubChapter"></app-text-short>
-  <hr class="w-50 mx-auto my-4">
 </div>
 <div *ngIf="subSubChapter.type === 'text-long'">
   <app-text-long [subSubChapter]="subSubChapter"></app-text-long>
-  <hr class="w-50 mx-auto my-4">
 </div>
 <div *ngIf="subSubChapter.type === 'img'">
   <app-img [subSubChapter]="subSubChapter"></app-img>
-  <hr class="w-50 mx-auto my-4">
 </div>
 
 

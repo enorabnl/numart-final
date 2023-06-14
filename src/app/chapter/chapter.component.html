@@ -1,11 +1,15 @@
 <div *ngIf="currentChapter">
   <h1>{{currentChapter.titre}}</h1>
   <div *ngFor=" let subchapter of currentChapter?.subChapters " >
-    {{subchapter.getTitre}}
+    <h2>{{subchapter.titre}}</h2>
     <app-text-component *ngFor="let subsubchapter of subchapter?.subSubChapters" [subSubChapter]="subsubchapter"></app-text-component>
+    <br>
+    <br>
   </div>
+  <hr class="w-50 mx-auto my-4">
   <br>
   <br>
+
 </div>
 
 
