@@ -30,7 +30,7 @@
     },
     {
       "id": 2,
-      "titre": "Les différentes formes d'art numérique",
+      "titre": "Différentes formes d'art numérique",
       "subChapters": [
         {
           "id": 3,
@@ -50,6 +50,21 @@
               "id": 5,
               "description":"Les avantages de l'art vectoriel sont sa flexibilité et sa résolution indépendante. Étant donné que les images vectorielles sont constituées d'objets géométriques, elles peuvent être redimensionnées à n'importe quelle taille sans perte de qualité, ce qui les rend polyvalentes pour diverses applications. De plus, les illustrations vectorielles peuvent être modifiées, recolorées et éditées de manière non destructive, offrant ainsi une grande liberté créative." ,
               "type": "text-short"
+            },{
+              "id": 5,
+              "imageURL": "assets/data/img/aVectoriel_femme_violon.jpg",
+              "description":"Portrait du soudan – Kathryn Rathke ",
+              "type": "img"
+            },{
+              "id": 5,
+              "imageURL": "assets/data/img/aVectoriel_escaliers_oranges_roses.jpg",
+              "description":"All talked out - Yordanka Poleganova  ",
+              "type": "img"
+            },{
+              "id": 5,
+              "imageURL": "assets/data/img/aVectoriel_femme_blonde.jpg",
+              "description":"Icône pour la marque laitière - Albert Morell ",
+              "type": "img"
             }
           ]
         },
@@ -77,6 +92,16 @@
               "id": 10,
               "description":"Quelques exemples d'art interactif comprennent des installations interactives qui réagissent aux mouvements du spectateur, des expériences de réalité virtuelle où l'utilisateur peut explorer des mondes virtuels, des jeux d'art qui défient les attentes et les normes traditionnelles, des performances interactives où le public est invité à participer et à influencer le déroulement de l'œuvre, et des projets numériques collaboratifs qui permettent aux personnes du monde entier de créer ensemble." ,
               "type": "text-short"
+            },{
+              "id": 5,
+              "imageURL": "assets/data/img/aInteractif_colore.jpg",
+              "description":"Exposition Au-delà des limites par le teamLab, La Villette  ",
+              "type": "img"
+            },{
+              "id": 5,
+              "imageURL": "assets/data/img/aInteractif_nuage.jpg",
+              "description":"Installation interactive Résonance, Studio Tish ",
+              "type": "img"
             }
           ]
         },
@@ -101,9 +126,24 @@
               "description": "Les œuvres d'art génératif sont souvent caractérisées par leur nature dynamique, évolutive et interactive. Quelques exemples d'art génératif comprennent des installations lumineuses qui se modifient en fonction des mouvements du public, des compositions musicales générées par des algorithmes complexes, des paysages visuels en constante évolution basés sur des règles mathématiques, des sculptures générées par ordinateur imprimées en 3D et des peintures numériques générées à partir d'ensembles de données.",
               "type": "text-short"
             },{
+              "id": 5,
+              "imageURL": "assets/data/img/aGene_plantes.jpg",
+              "description":"Fifty sisters - Jon McCormack",
+              "type": "img"
+            },{
+              "id": 5,
+              "imageURL": "assets/data/img/aGene_son.jpg",
+              "description":"Noise drawing - Jon McCormack",
+              "type": "img"
+            },{
               "id": 15,
               "description":"Jon McCormack est un artiste et chercheur spécialisé dans l'art génératif, la musique et l'intelligence artificielle. Il explore les possibilités de créer des formes de vie artificielles en s'inspirant de la complexité de la nature. Ses œuvres ont été exposées dans des galeries et musées renommés à travers le monde, et il a remporté de nombreux prix dans les domaines de l'art médiatique et de la recherche informatique. Il est également un universitaire respecté, avec ses travaux publiés dans des revues scientifiques de premier plan. En tant que fondateur et directeur de SensiLab, il dirige des recherches transdisciplinaires sur les technologies créatives à l'université Monash en Australie. Son parcours et ses réalisations témoignent de son influence dans le domaine de l'art numérique et de son expertise en informatique." ,
               "type": "text-short"
+            },{
+              "id": 5,
+              "imageURL": "assets/data/img/JonMcCormack.jpg",
+              "description":"",
+              "type": "img"
             },{
               "id": 16,
               "description": "J’ai eu l'opportunité d'engager une discussion avec lui, voici la retranscription de notre échange : <br><br> <span> Enora <span/> : Quels outils et technologies utilisez-vous ?<br>Jon McCormak : “Largely my own software (written in C/C++, Python or Java). I use Processing for sketches and Cinema4D for 3D work.” <br> J’utilise principalement mon propre logiciel, écrit en C/C++, Python ou Java. J'utilise Processing pour mes esquisses (sketches) et Cinema4D pour mon travail en 3D.<br>Enora : Dans quelle mesure les mathématiques, la science ou la technologie influencent-elles votre art génératif ?<br>Jon McCormak : “ Science tries to explain how the world is, so I'm influenced by scientific thought about the world and our place in it (e.g. evolution) from a philosophical perspective (you can read a book like Dennett's \"Darwins dangerous idea\" as an example). I studied maths at university and its a great tool for clarifying your thinking. I also find a lot from other disciplines so I wouldn't say science & technology are my only influences at all .” <br> La science essaie d'expliquer comment le monde est, donc je suis influencé(e) par la pensée scientifique sur le monde et notre place dedans (par exemple, l'évolution) d'un point de vue philosophique (vous pouvez lire un livre comme \"Darwin's Dangerous Idea\" de Dennett comme exemple). J'ai étudié les mathématiques à l'université et c'est un excellent outil pour clarifier sa pensée. Je trouve également beaucoup d'inspiration dans d'autres disciplines, donc je ne dirais pas que la science et la technologie sont mes seules influences.<br>Enora : Comment incorporez-vous des éléments de hasard ou de chance dans votre art ?<br>Jon McCormak : “This is a simple question with a very complex answer! It comes down to what \"randomness\" really means. I certainly use randomness in the software I write, but its usually very specific and it doesn't mean the results are random at all :-)” <br> C'est une question simple avec une réponse très complexe! Tout dépend de ce que l'on entend par \"aléatoire\". J'utilise des éléments de hasard dans les logiciels que j'écris, mais c'est généralement très spécifique et cela ne signifie pas du tout que les résultats sont réellement aléatoires :-).<br>Enora : En quoi votre art se distingue-t-il de l'art traditionnel ou de l'art numérique non-génératif ?<br>Jon McCormak : “Generative art is about making a process so in many ways its closely connected to conceptual art, except that the process is usually enacted and realises something.” <br> L'art génératif consiste à créer un processus, et à bien des égards, il est étroitement lié à l'art conceptuel, à la différence que le processus est généralement mis en œuvre et réalise quelque chose.<br>Enora : Quels sont les défis ou obstacles auxquels vous êtes confronté(e) ?<br>Jon McCormak : “Time mainly!” – Le temps principalement.",
@@ -135,6 +175,11 @@
               "id":21,
               "description":"Le crypto art et les NFT ont suscité un engouement croissant dans le domaine de l'art numérique, avec des ventes record et une communauté d'artistes et de collectionneurs en expansion constante. Cependant, leur émergence a également soulevé des questions sur la durabilité environnementale due à la consommation énergétique élevée des blockchains et sur les problèmes de droits d'auteur et de propriété intellectuelle.",
               "type": "text-short"
+            },{
+              "id": 5,
+              "imageURL": "assets/data/img/crypto.jpg",
+              "description":"Everydays: the first 5000 days - Beeple",
+              "type": "img"
             }
           ]
         },
@@ -170,6 +215,16 @@
               "id":28,
               "description":"Le pixel art a connu une résurgence dans la culture populaire et est apprécié par les amateurs de jeux vidéo rétro, ainsi que par les artistes et les designers à la recherche d'un style unique et distinctif. Il incarne une fusion entre l'art, la technologie et la nostalgie, et continue d'évoluer en tant que forme d'expression artistique dynamique et diversifiée.",
               "type": "text-short"
+            },{
+              "id": 5,
+              "imageURL": "assets/data/img/aPixel_marseille.jpg",
+              "description":"Marseille – eboy ",
+              "type": "img"
+            },{
+              "id": 5,
+              "imageURL": "assets/data/img/aPixel_sol_gens_nus.jpg",
+              "description":"Point – Ced Veray",
+              "type": "img"
             }
           ]
         },{
@@ -204,6 +259,16 @@
               "id":34,
               "description":"La sculpture digitale ouvre de nouvelles voies pour l'exploration artistique et la création de formes tridimensionnelles innovantes. Grâce à l'évolution constante des technologies numériques, la sculpture digitale continue de se développer et de repousser les limites de la créativité, offrant aux artistes un nouveau moyen passionnant d'exprimer leur vision artistique.",
               "type": "text-short"
+            },{
+              "id": 5,
+              "imageURL": "assets/data/img/scudig_flora.jpg",
+              "description":"Florescence ornata 2 - Nervous System ",
+              "type": "img"
+            },{
+              "id": 5,
+              "imageURL": "assets/data/img/scudig_chevalier.jpg",
+              "description":"Extra-Natural - Miguel Chevalier",
+              "type": "img"
             }
           ]
         },{
@@ -230,6 +295,11 @@
               "id":39,
               "description": "En fin de compte, la question de savoir si un site internet est une œuvre d'art dépend de la conception artistique, de l'intention de l'artiste et de la réception par le public. Le web offre une plateforme dynamique et accessible pour la création artistique, permettant de repousser les limites de l'art traditionnel et d'explorer de nouvelles formes d'expression.",
               "type": "text-short"
+            },{
+              "id": 5,
+              "imageURL": "assets/data/img/site.png",
+              "description":"Hello Enjoy",
+              "type": "img"
             }
           ]
         },{
@@ -274,13 +344,17 @@
       ]
     },{
       "id": 3,
-      "titre": "Apprentissage de la génération d'art avec P5.js",
+      "titre": "Génération d'art avec P5.js",
       "subChapters": [
         {
           "id": 11,
           "titre": "Présentation de P5.js",
           "subSubChapters": [
             {
+              "id":48,
+              "imageURL": "assets/data/img/p5js.png",
+              "type": "img"
+            },{
               "id":48,
               "description":"P5.js est une bibliothèque de traitement créatif et de programmation graphique en JavaScript, conçue pour faciliter la création d'art numérique et d'animations interactives pour le web. Elle est basée sur la bibliothèque Processing (environnement de développement open-source spécialement conçu pour la création d'art et de design interactifs), largement utilisée dans le domaine de la création artistique et du design graphique. P5.js permet aux artistes, designers, programmeurs et étudiants en informatique d'exprimer leur créativité en utilisant des fonctionnalités de dessin, de manipulation d'images, de vidéos et de sons. " ,
               "type": "text-short"
@@ -296,7 +370,7 @@
           ]
         }, {
           "id": 12,
-          "titre": "Description de l'apprentissage de P5.js et des difficultés rencontrées",
+          "titre": "Description de l'apprentissage",
           "subSubChapters": [
             {
               "id":51,
@@ -304,11 +378,20 @@
               "type": "text-short"
             },{
               "id":52,
+              "imageURL": "assets/data/img/sketch.png",
               "description":"Voici à quoi ressemble l’éditeur avant de commencer à coder quoi que ce soit.<br>Au début de mon apprentissage, j'ai commencé par comprendre l'utilisation des fonctions setup() et draw() dans P5.js. La fonction setup() est exécutée une seule fois, au lancement du programme, lorsque nous appuyons sur le bouton \"play\" en haut à gauche. En revanche, la fonction draw() est exécutée en boucle tant que le programme est en cours d'exécution, jusqu'à ce que nous l'arrêtions en appuyant sur le bouton carré en haut à gauche. C'est grâce à cette fonction que nous pouvons créer des animations.",
-              "type": "img"
+              "type": "text-img-r"
             },{
               "id":53,
-              "description":"",
+              "description":"La fonction createCanvas() nous permet de créer un \"canvas\" (une toile) avec les dimensions de notre choix. Elle prend donc deux arguments, la largeur et la hauteur du canvas en pixels. Cette fonction est généralement utilisée à l'intérieur de la fonction setup().",
+              "type": "text-short"
+            },{
+              "id":54,
+              "description":"Ces trois fonctions (setup(), draw() et createCanvas()) sont couramment utilisées dans la plupart des sketches (un sketch étant un fichier JavaScript sur P5.js). Cependant, la bibliothèque propose de nombreuses autres fonctions, telles que des fonctions de couleur, de forme, d'événements ou encore de texte.",
+              "type": "text-short"
+            },{
+              "id":55,
+              "description":"Pour explorer ces différentes catégories de fonctions, j'ai consulté la documentation de la bibliothèque et j'ai essayé de comprendre le fonctionnement de chaque fonction. Cela n'a pas été facile, car certaines de ces fonctions étaient assez complexes. Je n'ai pas pu me permettre de m'attarder sur chacune d'entre elles, car j'avais également besoin d'apprendre à utiliser un logiciel de dessin vectoriel et de créer un site web.",
               "type": "text-short"
             }
           ]
@@ -316,15 +399,36 @@
         {
           "id": 13,
           "titre": "Conclusion",
-          "imageURL": "chemin/vers/image2.jpg",
-          "description": "En fouillant dans la documentation et testant plusieurs fonctions, j’ai découvert la richesse de cette bibliothèque. Avec son large éventail de fonctions, P5.js offre de nombreuses possibilités pour les artistes qui souhaitent s'exprimer à travers le code.<br><br>L'un des avantages majeurs de P5.js est sa facilité d'utilisation, même pour ceux qui n'ont jamais écrit une seule ligne de code. Grâce à sa syntaxe accessible et à sa documentation complète, il est relativement simple de prendre en main la bibliothèque et de commencer à créer des visuels dès le départ. Même avec peu de connaissances en programmation, il est possible de produire des résultats visuellement captivants.<br><br>Un autre avantage de P5.js est sa capacité à générer des visuels de manière efficace avec un minimum de code. Grâce à sa riche collection de fonctions, il est possible de réaliser des effets visuels complexes en utilisant relativement peu de lignes de code. Cela permet aux artistes de se concentrer davantage sur la créativité et l'expression artistique, plutôt que de se perdre dans des détails techniques complexes.<br><br>En utilisant P5.js, les artistes peuvent facilement manipuler des formes géométriques, des couleurs, des images, et des animations pour créer des œuvres d'art numérique interactives et immersives. La bibliothèque offre également une intégration fluide avec les interactions utilisateur, ce qui permet de créer des expériences artistiques engageantes et participatives.<br>En résumé, P5.js se distingue par sa richesse de fonctionnalités et sa facilité d'utilisation, ce qui en fait un outil puissant pour les artistes qui souhaitent explorer le potentiel de l'art numérique. Que vous soyez un débutant ou un artiste expérimenté, P5.js offre une plateforme accessible et flexible pour donner vie à vos idées artistiques et créer des œuvres visuellement saisissantes.",
-          "type": " "
+          "subSubChapters": [
+            {
+              "id": 56,
+              "description": "En fouillant dans la documentation et testant plusieurs fonctions, j’ai découvert la richesse de cette bibliothèque. Avec son large éventail de fonctions, P5.js offre de nombreuses possibilités pour les artistes qui souhaitent s'exprimer à travers le code.",
+              "type": "text-short"
+            },{
+              "id": 57,
+              "description": "L'un des avantages majeurs de P5.js est sa facilité d'utilisation, même pour ceux qui n'ont jamais écrit une seule ligne de code. Grâce à sa syntaxe accessible et à sa documentation complète, il est relativement simple de prendre en main la bibliothèque et de commencer à créer des visuels dès le départ. Même avec peu de connaissances en programmation, il est possible de produire des résultats visuellement captivants.",
+              "type": "text-short"
+            },{
+              "id": 58,
+              "description": "Un autre avantage de P5.js est sa capacité à générer des visuels de manière efficace avec un minimum de code. Grâce à sa riche collection de fonctions, il est possible de réaliser des effets visuels complexes en utilisant relativement peu de lignes de code. Cela permet aux artistes de se concentrer davantage sur la créativité et l'expression artistique, plutôt que de se perdre dans des détails techniques complexes.",
+              "type": "text-short"
+            },{
+              "id": 59,
+              "description": "En utilisant P5.js, les artistes peuvent facilement manipuler des formes géométriques, des couleurs, des images, et des animations pour créer des œuvres d'art numérique interactives et immersives. La bibliothèque offre également une intégration fluide avec les interactions utilisateur, ce qui permet de créer des expériences artistiques engageantes et participatives.",
+              "type": "text-short"
+            },{
+              "id": 60,
+              "description": "En résumé, P5.js se distingue par sa richesse de fonctionnalités et sa facilité d'utilisation, ce qui en fait un outil puissant pour les artistes qui souhaitent explorer le potentiel de l'art numérique. Que vous soyez un débutant ou un artiste expérimenté, P5.js offre une plateforme accessible et flexible pour donner vie à vos idées artistiques et créer des œuvres visuellement saisissantes.",
+              "type": "text-short"
+            }
+          ]
+
         }
       ]
     },
     {
       "id": 4,
-      "titre": "Approfondissement de l'art vectoriel avec Inkscape",
+      "titre": "Art vectoriel avec Inkscape",
       "subChapters": [
         {
           "id": 13,
@@ -335,7 +439,7 @@
         },
         {
           "id": 14,
-          "titre": "Description de l'apprentissage d'Inkecape et des difficultés rencontrées",
+          "titre": "Description de l'apprentissage",
           "imageURL": "chemin/vers/image2.jpg",
           "description": "Pour approfondir ma compréhension de la création artistique basée sur l'art vectoriel, j'ai décidé d'explorer les fonctionnalités clés d'Inkscape en me basant sur des tutoriels vidéo. En suivant les étapes des tutoriels, j'ai appris à manipuler les outils de dessin vectoriel, à créer et modifier des formes géométriques, ainsi qu’à gérer les couleurs et les remplissages. Cette exploration d'Inkscape m'a permis d'approfondir mes connaissances en art vectoriel et de développer mes compétences techniques pour créer des illustrations et des designs.",
           "type": " "
