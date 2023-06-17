@@ -379,7 +379,12 @@
             },{
               "id":52,
               "imageURL": "assets/data/img/sketch.png",
-              "description":"Voici à quoi ressemble l’éditeur avant de commencer à coder quoi que ce soit.<br>Au début de mon apprentissage, j'ai commencé par comprendre l'utilisation des fonctions setup() et draw() dans P5.js. La fonction setup() est exécutée une seule fois, au lancement du programme, lorsque nous appuyons sur le bouton \"play\" en haut à gauche. En revanche, la fonction draw() est exécutée en boucle tant que le programme est en cours d'exécution, jusqu'à ce que nous l'arrêtions en appuyant sur le bouton carré en haut à gauche. C'est grâce à cette fonction que nous pouvons créer des animations.",
+              "description":"Voici à quoi ressemble l’éditeur avant de commencer à coder quoi que ce soit.",
+              "type": "text-short"
+            },{
+              "id":52,
+              "imageURL": "assets/data/img/sketch.png",
+              "description":"Au début de mon apprentissage, j'ai commencé par comprendre l'utilisation des fonctions setup() et draw() dans P5.js. La fonction setup() est exécutée une seule fois, au lancement du programme, lorsque nous appuyons sur le bouton \"play\" en haut à gauche. En revanche, la fonction draw() est exécutée en boucle tant que le programme est en cours d'exécution, jusqu'à ce que nous l'arrêtions en appuyant sur le bouton carré en haut à gauche. C'est grâce à cette fonction que nous pouvons créer des animations.",
               "type": "text-img-r"
             },{
               "id":53,

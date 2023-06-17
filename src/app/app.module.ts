@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeadCardComponent } from './head-card/head-card.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
@@ -19,7 +18,7 @@ import { ChapterComponent } from './chapter/chapter.component';
 import {ChapterService} from "./chapter/chapter.service";
 import { HttpClientModule } from '@angular/common/http';
 import { TextComponentComponent } from './text-components/text-component/text-component.component';
-import { Sketch1Component } from './sketch1/sketch1.component';
+import { SketchComponent } from './text-components/sketch/sketch.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +37,7 @@ import { Sketch1Component } from './sketch1/sketch1.component';
     TextLongComponent,
     ChapterComponent,
     TextComponentComponent,
-    Sketch1Component
+    SketchComponent
   ],
   imports: [
     BrowserModule,
