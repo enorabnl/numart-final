@@ -3,13 +3,12 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { ChapterModel } from "../model/Chapter.model";
 import { map } from 'rxjs/operators';
-
 @Injectable({
   providedIn: 'root'
 })
 export class ChapterService {
   private chapters: ChapterModel[] = [];
-  private chapter! :ChapterModel | undefined ;
+  private chapter!: ChapterModel | undefined;
   private currentChapterId!: number;
 
   constructor(private http: HttpClient) { }
@@ -24,15 +23,21 @@ export class ChapterService {
     );
     data.subscribe(
       (chapter: ChapterModel | undefined) => {
-        this.chapter = chapter
+        this.chapter = chapter;
       },
       (error: any) => {
-        console.error('Erreur lors de la récupération du chaptitre:', error);
+        console.error('Erreur lors de la récupération du chapitre:', error);
       }
     );
     return data;
   }
 
+  getCurrentChapterId(): number {
+    return this.currentChapterId;
+  }
 
 
+  setCurrentChapterId(id: number): void {
+    this.currentChapterId = id;
+  }
 }

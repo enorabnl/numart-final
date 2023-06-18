@@ -7,27 +7,22 @@ import { ActivatedRoute } from '@angular/router';
   selector: 'app-chapter',
   templateUrl: './chapter.component.html',
   styleUrls: ['./chapter.component.scss'],
-})
-export class ChapterComponent implements OnInit {
+})export class ChapterComponent implements OnInit {
   currentChapter: ChapterModel | undefined;
-  private id: number;
 
-  constructor(private activatedRoute: ActivatedRoute, private chapterService: ChapterService) {
-    this.id = 0; // Initialisez l'ID à une valeur par défaut
-  }
+  constructor(private activatedRoute: ActivatedRoute, private chapterService: ChapterService) {}
 
   ngOnInit(): void {
     this.activatedRoute.params.subscribe(params => {
-      this.id = parseInt(params['id']); // Récupérez l'ID de la route
+      const id = parseInt(params['id']);
+      this.chapterService.setCurrentChapterId(id); // Définir l'ID du chapitre actuel
       this.loadChapter();
     });
   }
-  getCurrentChapterId():number{
-    return this.id;
-  }
 
   loadChapter(): void {
-    this.chapterService.getChapter(this.id).subscribe(
+    const currentChapterId = this.chapterService.getCurrentChapterId();
+    this.chapterService.getChapter(currentChapterId).subscribe(
       (chapter: ChapterModel | undefined) => {
         this.currentChapter = chapter;
       },

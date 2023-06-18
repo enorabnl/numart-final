@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import {Router} from "@angular/router";
 import {ChapterComponent} from "../chapter/chapter.component";
 import {ChapterService} from "../chapter/chapter.service";
+
 import {ChapterModel} from "../model/Chapter.model";
 
 @Component({
@@ -14,6 +15,9 @@ export class NavbarComponent {
   constructor(private chapterService:ChapterService) {}
   ngOnInit():void{
     this.loadChapters();
+  }
+  getCurrentChapterId(): number {
+    return this.chapterService.getCurrentChapterId();
   }
   loadChapters():void{
     this.chapterService.getChapters().subscribe(
