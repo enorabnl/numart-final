@@ -2,6 +2,8 @@ export class SubSubChapterModel {
   constructor(
     public id: number,
     public imageURL: string,
+    public sketchURL:string,
+    public sketchChemin:string,
     public description: string,
     public type: string
   ) {}
@@ -44,5 +46,21 @@ export class SubSubChapterModel {
   // Setter pour l'attribut type
   set setType(type: string) {
     this.type = type;
+  }
+  //Getter pour l'attribut sketchURL
+  get getSketchURL(){
+    return this.sketchURL;
+  }
+  // Setter pour l'attribut sketchURL
+  set setSketchURL(sketchURL: string) {
+    this.sketchURL = sketchURL;
+  }
+  //Getter pour l'attribut sketchChemin
+  get getSketchChemin(){
+    return this.sketchChemin;
+  }
+  // Setter pour l'attribut sketchChemin
+  set setsketchChemin(sketchChemin: string) {
+    this.sketchChemin = sketchChemin;
   }
 }

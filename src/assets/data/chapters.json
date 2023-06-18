@@ -281,7 +281,7 @@
               "type": "text-short"
             },{
               "id":36,
-              "description": "L'art sur le web peut prendre de nombreuses formes : des compositions visuelles innovantes, des animations interactives, des expériences sonores immersives, des installations en ligne, et bien plus encore. Les artistes utilisent des langages de programmation tels que HTML, CSS, JavaScript, et des frameworks comme Angular, pour créer des sites web qui combinent esthétique, interactivité et narrativité.",
+              "description": "L'art sur le web peut prendre de nombreuses formes : des compositions visuelles innovantes, des animations interactives, des expériences sonores immersives, des installations en ligne, et bien plus encore. Les artistes utilisent des langages de programmation tels que HTML, CSS, JavaScript, TypeScript, et des frameworks comme Angular, pour créer des sites web qui combinent esthétique, interactivité et narrativité.",
               "type": "text-short"
             },{
               "id":37,
@@ -328,7 +328,7 @@
               "type": "text-short"
             },{
               "id":45,
-              "description": "L'utilisation du code dans la création artistique présente également des avantages et des limites. L'un des avantages majeurs est la possibilité de créer des œuvres génératives qui évoluent avec le temps ou en interaction avec le public. Les artistes peuvent programmer des algorithmes qui répondent aux actions des spectateurs, créant ainsi des expériences uniques et personnalisées. Cependant, cela soulève également des questions éthiques et philosophiques sur le rôle de l'artiste dans le processus créatif. Jusqu'à quel point le rôle de l'artiste est-il réduit lorsque le code prend en charge une partie de la création ?",
+              "description":"L'utilisation du code dans la création artistique présente des avantages et des limites. L'un des avantages majeurs est la possibilité de créer des œuvres génératives qui évoluent avec le temps ou en interaction avec le public. Les artistes peuvent programmer des algorithmes qui répondent aux actions des spectateurs, créant ainsi des expériences uniques et personnalisées. Cependant, cela soulève également des questions éthiques et philosophiques sur le rôle de l'artiste dans le processus créatif. Jusqu'à quel point le rôle de l'artiste est-il réduit lorsque le code prend en charge une partie de la création ?",
               "type": "text-short"
             },{
               "id":46,
@@ -396,7 +396,7 @@
               "type": "text-short"
             },{
               "id":55,
-              "description":"Pour explorer ces différentes catégories de fonctions, j'ai consulté la documentation de la bibliothèque et j'ai essayé de comprendre le fonctionnement de chaque fonction. Cela n'a pas été facile, car certaines de ces fonctions étaient assez complexes. Je n'ai pas pu me permettre de m'attarder sur chacune d'entre elles, car j'avais également besoin d'apprendre à utiliser un logiciel de dessin vectoriel et de créer un site web.",
+              "description": "Pour explorer ces différentes catégories de fonctions, j'ai consulté la documentation de la bibliothèque et j'ai essayé de comprendre le fonctionnement de chaque fonction. Cela n'a pas été facile, car certaines de ces fonctions étaient assez complexes. Je n'ai pas pu me permettre de m'attarder sur chacune d'entre elles, car je m’étais également fixé comme objectif d'apprendre à utiliser un logiciel de dessin vectoriel et de créer un site web.",
               "type": "text-short"
             }
           ]
@@ -425,6 +425,11 @@
               "id": 60,
               "description": "En résumé, P5.js se distingue par sa richesse de fonctionnalités et sa facilité d'utilisation, ce qui en fait un outil puissant pour les artistes qui souhaitent explorer le potentiel de l'art numérique. Que vous soyez un débutant ou un artiste expérimenté, P5.js offre une plateforme accessible et flexible pour donner vie à vos idées artistiques et créer des œuvres visuellement saisissantes.",
               "type": "text-short"
+            }, {
+              "id":48,
+              "sketchURL": "https://editor.p5js.org/enobnl/full/ENzjIc2DX",
+              "sketchChemin": "assets/data/sketchs/trace_rond.png",
+              "type": "sketch"
             }
           ]
 
@@ -436,25 +441,8 @@
       "titre": "Art vectoriel avec Inkscape",
       "subChapters": [
         {
-          "id": 13,
-          "titre": "Présentation d'Inkscape",
-          "imageURL": "chemin/vers/image1.jpg",
-          "description": "Inkscape est un logiciel libre et gratuit de dessin vectoriel, utilisé pour créer des graphismes vectoriels, des illustrations, ou encore des logos. Il permet donc de dessiner des images de haute qualité, qui peuvent être redimensionnés à n'importe quelle taille sans perdre de qualité. <br>Inkscape propose de nombreuses fonctionnalités, notamment la possibilité de dessiner des formes, de modifier les couleurs, les traits et les remplissages, ainsi que la possibilité d'importer et d'exporter des fichiers de différents formats : svg, png, jpg…",
-          "type": ""
-        },
-        {
-          "id": 14,
-          "titre": "Description de l'apprentissage",
-          "imageURL": "chemin/vers/image2.jpg",
-          "description": "Pour approfondir ma compréhension de la création artistique basée sur l'art vectoriel, j'ai décidé d'explorer les fonctionnalités clés d'Inkscape en me basant sur des tutoriels vidéo. En suivant les étapes des tutoriels, j'ai appris à manipuler les outils de dessin vectoriel, à créer et modifier des formes géométriques, ainsi qu’à gérer les couleurs et les remplissages. Cette exploration d'Inkscape m'a permis d'approfondir mes connaissances en art vectoriel et de développer mes compétences techniques pour créer des illustrations et des designs.",
-          "type": " "
-        },
-        {
-          "id": 15,
-          "titre": "Conclusion",
-          "imageURL": "chemin/vers/image2.jpg",
-          "description": "",
-          "type": " "
+          "id":48,
+          "type": "text-short"
         }
       ]
     },
@@ -462,41 +450,8 @@
       "id": 5,
       "titre": "Site internet",
       "subChapters": [
-        {
-          "id": 16,
-          "titre": "Pourquoi ce choix ?",
-          "imageURL": "chemin/vers/image1.jpg",
-          "description": "J'ai choisi de rédiger mon rapport sous forme de site internet pour plusieurs raisons. Tout d'abord, le caractère interactif d'un site web permet de rappeler les différentes formes d'art numérique que j'ai présentées précédemment. En incorporant des éléments interactifs tels que des animations, des vidéos et des liens, j'ai pu créer une expérience immersive et dynamique pour les visiteurs, les invitant à explorer et à interagir avec mon travail.<br><br>De plus, les sites web sont souvent considérés comme des œuvres d'art en eux-mêmes. En utilisant les langages et les méthodes de programmation que j'ai appris dans le contexte de l'art numérique, le site web que j'ai créé témoigne de cet apprentissage. J'ai pu expérimenter avec des techniques de conception et de développement web pour donner vie à mes idées artistiques, tout en offrant une expérience esthétiquement plaisante et originale aux utilisateurs.<br><br>En résumé, la rédaction de mon rapport sous forme de site internet m'a permis de combiner l'interactivité, l'expression artistique et l'apprentissage des langages et des méthodes de programmation utilisés dans l'art numérique. Cela a donné lieu à une expérience artistique immersive et dynamique, tout en offrant une accessibilité et une diffusion plus large de mon travail.",
-          "type": ""
-        },
-        {
-          "id": 17,
-          "titre": "Principales difficultés rencontrées",
-          "imageURL": "chemin/vers/image2.jpg",
-          "description": "La création de mon site internet a été un véritable défi, car je suis partie de zéro. Je n'avais aucune connaissance préalable en CSS, HTML ou même en Angular, le framework que j'ai choisi d'utiliser. Pour acquérir les compétences nécessaires, j'ai suivi des cours en ligne sur OpenClassrooms qui portaient sur le CSS, l'HTML et Angular. Chaque langage semblait relativement accessible individuellement, mais lorsque j'ai dû les combiner, les choses ont commencé à se compliquer. <br><br>Pour rendre mon code plus modulable et organisé, j'ai utilisé des composants (components) dans Angular. Un composant est une unité autonome qui combine du code HTML, CSS et TypeScript pour définir un élément spécifique de l'interface utilisateur. Au début, cela a ajouté une autre couche de confusion, car je ne savais pas quelles fonctions devaient être placées dans quel composant et dans quel fichier du composant. <br><br>Face à cette confusion, j'ai décidé de revoir les cours et de regarder des vidéos pour mieux comprendre le rôle de chaque fichier. Les deux jours que j'avais consacrés à l'apprentissage étaient insuffisants pour assimiler toutes les fonctionnalités et propriétés de chaque langage, ainsi que pour comprendre comment les assembler de manière efficace. <br><br>Malgré ces difficultés, j'ai persévéré et, au fur et à mesure de mon apprentissage, j'ai commencé à voir la logique et la structure du code émerger. J'ai pu créer des composants qui fonctionnaient ensemble pour donner vie à mon site web artistique. Cette expérience m'a non seulement permis de développer mes compétences en programmation, mais aussi de comprendre l'importance de la planification et de l'organisation dans un projet de création numérique.",
-          "type": " "
-        },
-        {
-          "id": 18,
-          "titre": "Présentation html",
-          "imageURL": "chemin/vers/image2.jpg",
-          "description": "Le HTML est un langage de programmation utilisé pour structurer le contenu d'une page web. Il est considéré comme la base fondamentale de la création de sites internet et joue un rôle essentiel dans la présentation et l'organisation des informations sur une page web.<br><br>Le HTML utilise des balises pour marquer différents éléments du contenu, tels que les titres, les paragraphes, les images, les liens, les tableaux, les formulaires, etc. Chaque balise est entourée de chevrons (< >) et indique au navigateur web comment afficher ces éléments. Par exemple, la balise <h1> marque un titre de premier niveau, tandis que la balise <p> est utilisée pour définir un paragraphe.<br><br>Une des particularités du HTML est sa structure hiérarchique. Les balises HTML sont imbriquées les unes dans les autres pour créer une structure en arborescence, où les balises parentes englobent les balises enfants. Cette hiérarchie permet de définir la relation entre les différents éléments de la page.<br><br>Le rôle principal du HTML dans la création d'un site internet est de définir la structure sémantique de la page. Il fournit une base solide pour le contenu en utilisant des balises appropriées pour chaque élément, ce qui facilite la compréhension du contenu par les moteurs de recherche et les lecteurs d'assistance. De plus, le HTML permet de créer des liens hypertexte entre les pages, ce qui permet à l'utilisateur de naviguer entre différentes parties du site.",
-          "type": " "
-        },
-        {
-          "id": 19,
-          "titre": "Présentation css",
-          "imageURL": "chemin/vers/image2.jpg",
-          "description": "Le CSS est un langage de programmation utilisé pour décrire la présentation et la mise en forme d'un document HTML. Il permet de contrôler l'apparence visuelle d'un site web, en définissant des règles pour la mise en page, les couleurs, les polices, les marges, les bordures, etc.<br><br>Le CSS fonctionne en associant des règles de style à des éléments HTML spécifiques. Ces règles sont définies à l'aide de sélecteurs CSS qui ciblent les balises HTML ou des classes et des identifiants spécifiques. Par exemple, on peut utiliser le sélecteur de balise \"p\" pour appliquer des styles à tous les paragraphes du document, ou utiliser une classe spécifique comme \".titre\" pour cibler uniquement les éléments avec cette classe.<br><br>Une des particularités du CSS est sa capacité à hiérarchiser les styles. Les règles CSS peuvent être définies à différents niveaux, du plus général au plus spécifique, et les styles seront appliqués en fonction de la cascade. Cela permet de modifier facilement l'apparence de plusieurs éléments en modifiant simplement une règle.<br><br>Le rôle principal du CSS est de séparer la présentation du contenu. En séparant le style du HTML, on obtient une meilleure maintenabilité et une plus grande flexibilité lors de la création d'un site web.",
-          "type": " "
-        },
-        {
-          "id": 20,
-          "titre": "Présentation angular",
-          "imageURL": "chemin/vers/image2.jpg",
-          "description": "Angular est un framework de développement d'applications web basé sur TypeScript. Il est utilisé pour créer des sites web et des applications web interactives et évolutives. Angular fournit une structure et une méthodologie pour organiser, développer et déployer des projets web.<br><br>Une des caractéristiques principales d'Angular est la création de composants. Un composant est une unité autonome qui combine du code HTML, CSS et TypeScript pour définir un élément spécifique de l'interface utilisateur. Les composants peuvent être réutilisés et encapsulés, ce qui facilite la gestion de la complexité d'une application web.<br><br>Angular utilise également un système de liaison de données bidirectionnelle. Cela signifie que les modifications dans le modèle de données sont automatiquement reflétées dans l'interface utilisateur, et vice versa. Cette fonctionnalité permet de créer des applications réactives où les données et l'interface utilisateur sont constamment synchronisées.<br><br>Un autre aspect clé d'Angular est la gestion des routes. Angular propose un mécanisme de routage qui permet de créer des applications à pages multiples et de naviguer entre ces pages de manière fluide. Cela facilite la création d'applications web avec une expérience utilisateur fluide et intuitive.<br><br>En plus de ces fonctionnalités, Angular offre de nombreux outils et bibliothèques supplémentaires pour faciliter le développement d'applications web complexes. Il intègre également des concepts de développement moderne tels que les modules, l'injection de dépendances et les tests automatisés, ce qui contribue à la qualité et à la maintenabilité du code.<br><br>En résumé, Angular est un framework de développement d'applications web qui facilite la création de sites web et d'applications web interactives. Il permet de structurer le code en utilisant des composants, de gérer la liaison de données bidirectionnelle et de gérer les routes pour créer des applications web réactives et à pages multiples. Angular offre également des outils et des concepts modernes pour améliorer la qualité et la maintenabilité du code.",
-          "type": " "
-        }
+
+
       ]
     },
     {

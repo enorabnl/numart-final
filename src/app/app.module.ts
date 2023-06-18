@@ -37,7 +37,8 @@ import { SketchComponent } from './text-components/sketch/sketch.component';
     TextLongComponent,
     ChapterComponent,
     TextComponentComponent,
-    SketchComponent
+    SketchComponent,
+
   ],
   imports: [
     BrowserModule,

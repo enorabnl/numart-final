@@ -10,12 +10,11 @@ import { map } from 'rxjs/operators';
 export class ChapterService {
   private chapters: ChapterModel[] = [];
   private chapter! :ChapterModel | undefined ;
+  private currentChapterId!: number;
 
   constructor(private http: HttpClient) { }
 
   public getChapters(): Observable<ChapterModel[]> {
-    // Charger les données du fichier JSON en utilisant HttpClient
-    //return this.http.get<ChapterModel[]>('assets/data/chapters.json');
     return this.http.get<ChapterModel[]>('assets/data/chapters.json');
   }
 

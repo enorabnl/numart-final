@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
+import {SubSubChapterModel} from "../../model/SubSubChapter.model";
 
 @Component({
   selector: 'app-sketch',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./sketch.component.scss']
 })
 export class SketchComponent {
+  @Input() subSubChapter!: SubSubChapterModel;
 
 }

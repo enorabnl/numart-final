@@ -22,6 +22,9 @@ export class ChapterComponent implements OnInit {
       this.loadChapter();
     });
   }
+  getCurrentChapterId():number{
+    return this.id;
+  }
 
   loadChapter(): void {
     this.chapterService.getChapter(this.id).subscribe(
