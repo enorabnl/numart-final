@@ -16,6 +16,7 @@ export class NavbarComponent {
   ngOnInit():void{
     this.loadChapters();
   }
+
   getCurrentChapterId(): number {
     return this.chapterService.getCurrentChapterId();
   }
