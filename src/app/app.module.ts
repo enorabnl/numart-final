@@ -19,6 +19,7 @@ import {ChapterService} from "./chapter/chapter.service";
 import { HttpClientModule } from '@angular/common/http';
 import { TextComponentComponent } from './text-components/text-component/text-component.component';
 import { SketchComponent } from './text-components/sketch/sketch.component';
+import { ImgHomeComponent } from './img-home/img-home.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,7 @@ import { SketchComponent } from './text-components/sketch/sketch.component';
     ChapterComponent,
     TextComponentComponent,
     SketchComponent,
-
+    ImgHomeComponent,
   ],
   imports: [
     BrowserModule,
