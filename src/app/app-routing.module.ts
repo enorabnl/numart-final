@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import {TitlePageComponent} from "./title-page/title-page.component";
 import {BrowserModule} from "@angular/platform-browser";
 import {ChapterComponent} from "./chapter/chapter.component";
 import {ImgHomeComponent} from "./img-home/img-home.component";

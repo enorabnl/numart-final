@@ -1,5 +1,5 @@
   [
-       {
+    {
       "id": 1,
       "titre": "Introduction",
       "subChapters": [
@@ -349,35 +349,253 @@
       "titre": "Art vectoriel avec Inkscape",
       "subChapters": [
         {
-          "type": "text-short"
+          "titre": "Présentation Inkscape",
+          "subSubChapters": [
+            {
+              "description": "Inkscape est un logiciel libre et gratuit de dessin vectoriel, utilisé pour créer des graphismes vectoriels, des illustrations, ou encore des logos. Il permet donc de dessiner des images de haute qualité, qui peuvent être redimensionnés à n'importe quelle taille sans perdre de qualité. \nInkscape propose de nombreuses fonctionnalités, notamment la possibilité de dessiner des formes, de modifier les couleurs, les traits et les remplissages, ainsi que la possibilité d'importer et d'exporter des fichiers de différents formats : svg, png, jpg…\n",
+              "type": "text-short"
+            }
+          ]
+        },{
+          "titre": "Descritpion de l'apprentissage",
+          "subSubChapters": [
+            {
+              "description": "Pour approfondir ma compréhension de la création artistique basée sur l'art vectoriel, j'ai décidé d'explorer les fonctionnalités clés d'Inkscape en me basant sur des tutoriels vidéo. ",
+              "type": "text-short"
+            },{
+              "description": "Pendant mon apprentissage d'Inkscape, j'ai exploré différentes fonctionnalités de ce logiciel. J'ai utilisé l'outil pour tracer des courbes de Bézier, qui m'a permis de créer des formes complexes en manipulant les points d'ancrage et les poignées de contrôle. J'ai également utilisé l'outil pour dessiner des lignes droites, ce qui m'a été utile pour réaliser des tracés précis. L'outil de dessin à main levée m'a offert une plus grande liberté créative en me permettant de dessiner des formes plus organiques et naturelles. ",
+              "type": "text-short"
+            },{
+              "description": "L'une des fonctionnalités les plus amusantes et créatives d'Inkscape est la manipulation des nœuds des formes. J'ai pu déplacer, ajouter, supprimer ou modifier les nœuds pour ajuster la forme des objets, créer des effets de déformation ou des variations de contour.",
+              "type": "text-short"
+            },{
+              "description": "Enfin, j'ai exploré la transformation des textes en chemins, ce qui signifie que je pouvais convertir les textes en objets éditables, composés de nœuds et de courbes. Cette fonctionnalité m'a permis une grande souplesse pour déformer les textes, les ajuster aux formes ou les incorporer dans des compositions.",
+              "type": "text-short"
+            }
+          ]
+        },{
+          "titre": "Conclusion",
+          "subSubChapters": [
+            {
+              "description": "En conclusion, Inkscape offre un ensemble d'outils puissants et polyvalents pour la création d'art numérique. En tant que logiciel de dessin vectoriel gratuit et open-source, il permet aux artistes de donner vie à leur imagination et de créer des œuvres originales et expressives.",
+              "type": "text-short"
+            },{
+              "description": "L'un des principaux avantages d'Inkscape est sa nature vectorielle, qui garantit des images de haute qualité et redimensionnables sans perte de résolution. Les courbes de Bézier, les outils de dessin à main levée et la manipulation des nœuds offrent une flexibilité artistique permettant de créer des formes complexes, des illustrations détaillées et des effets personnalisés.",
+              "type": "text-short"
+            },{
+              "description": "De plus, les fonctionnalités d'édition de texte permettent d'ajouter du contenu textuel et de le styliser de manière créative, en le manipulant comme des objets graphiques. Cette flexibilité ouvre la voie à des possibilités infinies pour la conception de logos, d'affiches, d'illustrations typographiques et bien plus encore.",
+              "type": "text-short"
+            },{
+              "description": "Inkscape offre également des outils de coloration avancés, avec la possibilité de créer des dégradés, d'appliquer des motifs et d'expérimenter avec diverses techniques de remplissage. L'intégration de filtres et d'effets spéciaux permet d'ajouter des textures, des ombres, des reflets et des déformations pour donner une dimension supplémentaire aux créations artistiques.",
+              "type": "text-short"
+            },{
+              "description": "En tant que logiciel libre, Inkscape bénéficie d'une communauté active qui partage des ressources et des tutoriels pour étendre ses fonctionnalités. Cela crée un environnement collaboratif propice à l'apprentissage et à l'exploration de nouvelles techniques artistiques.",
+              "type": "text-short"
+            },{
+              "description": "Que ce soit pour la création d'illustrations, de graphiques, de logos, de bandes dessinées ou d'art typographique, Inkscape s'impose comme un outil incontournable dans le domaine de l'art numérique. Sa facilité d'utilisation, sa polyvalence et ses possibilités créatives en font un choix idéal pour les artistes souhaitant exprimer leur vision artistique de manière numérique.",
+              "type": "text-short"
+            }
+          ]
         }
       ]
     },
     {
+      "id": 5,
       "titre": "Site internet",
       "subChapters": [
+        {
+          "titre": "Pourquoi ce choix ?",
+          "subSubChapters": [
+            {
+              "description":"J'ai choisi de rédiger mon rapport sous forme de site internet pour plusieurs raisons. Tout d'abord, le caractère interactif d'un site web permet de rappeler les différentes formes d'art numérique que j'ai présentées précédemment. En incorporant des éléments interactifs tels que des animations, des vidéos et des liens, j'ai pu créer une expérience immersive et dynamique pour les visiteurs, les invitant à explorer et à interagir avec mon travail.",
+              "type": "text-short"
+            },{
+              "description":"De plus, les sites web sont souvent considérés comme des œuvres d'art en eux-mêmes. En utilisant les langages et les méthodes de programmation que j'ai appris dans le contexte de l'art numérique, le site web que j'ai créé témoigne de cet apprentissage. J'ai pu expérimenter avec des techniques de conception et de développement web pour donner vie à mes idées artistiques, tout en offrant une expérience esthétiquement plaisante et originale aux utilisateurs.",
+              "type": "text-short"
+            },{
+              "description":"En résumé, la rédaction de mon rapport sous forme de site internet m'a permis de combiner l'interactivité, l'expression artistique et l'apprentissage des langages et des méthodes de programmation utilisédans l'art numérique. Cela a donné lieu à une expérience artistique immersive et dynamique, tout en offrant une accessibilité et une diffusion plus large de mon travail.",
+              "type": "text-short"
+            }
+          ]
+        },{
+          "titre": "Présentation html",
+          "subSubChapters": [
+            {
+              "description":"Le HTML est un langage de programmation utilisé pour structurer le contenu d'une page web. Il est considéré comme la base fondamentale de la création de sites internet et joue un rôle essentiel dans la présentation et l'organisation des informations sur une page web.",
+              "type": "text-short"
+            },{
+              "description":"Le HTML utilise des balises pour marquer différents éléments du contenu, tels que les titres, les paragraphes, les images, les liens, les tableaux, les formulaires, etc. Chaque balise est entourée de chevrons (< >) et indique au navigateur web comment afficher ces éléments. Par exemple, la balise <h1> marque un titre de premier niveau, tandis que la balise <p> est utilisée pour définir un paragraphe.",
+              "type": "text-short"
+            },{
+              "description":"Une des particularités du HTML est sa structure hiérarchique. Les balises HTML sont imbriquées les unes dans les autres pour créer une structure en arborescence, où les balises parentes englobent les balises enfants. Cette hiérarchie permet de définir la relation entre les différents éléments de la page.",
+              "type": "text-short"
+            },{
+              "description":"Le rôle principal du HTML dans la création d'un site internet est de définir la structure sémantique de la page. Il fournit une base solide pour le contenu en utilisant des balises appropriées pour chaque élément, ce qui facilite la compréhension du contenu par les moteurs de recherche et les lecteurs d'assistance. De plus, le HTML permet de créer des liens hypertexte entre les pages, ce qui permet à l'utilisateur de naviguer entre différentes parties du site.",
+              "type": "text-short"
+            }
+          ]
+        },{
+          "titre": "Présentation css",
+          "subSubChapters": [
+            {
+              "description":"Le CSS est un langage de programmation utilisé pour décrire la présentation et la mise en forme d'un document HTML. Il permet de contrôler l'apparence visuelle d'un site web, en définissant des règles pour la mise en page, les couleurs, les polices, les marges, les bordures, etc.",
+              "type": "text-short"
+            },{
+              "description":"Le CSS fonctionne en associant des règles de style à des éléments HTML spécifiques. Ces règles sont définies à l'aide de sélecteurs CSS qui ciblent les balises HTML ou des classes et des identifiants spécifiques. Par exemple, on peut utiliser le sélecteur de balise \"p\" pour appliquer des styles à tous les paragraphes du document, ou utiliser une classe spécifique comme \".titre\" pour cibler uniquement les éléments avec cette classe.",
+              "type": "text-short"
+            },{
+              "description":"Une des particularités du CSS est sa capacité à hiérarchiser les styles. Les règles CSS peuvent être définies à différents niveaux, du plus général au plus spécifique, et les styles seront appliqués en fonction de la cascade. Cela permet de modifier facilement l'apparence de plusieurs éléments en modifiant simplement une règle.",
+              "type": "text-short"
+            },{
+              "description":"Le rôle principal du CSS est de séparer la présentation du contenu. En séparant le style du HTML, on obtient une meilleure maintenabilité et une plus grande flexibilité lors de la création d'un site web. ",
+              "type": "text-short"
+            }
+          ]
+        },{
+          "titre": "Présentation angular",
+          "subSubChapters": [
+            {
+              "description":"Angular est un framework de développement d'applications web basé sur le TypeScript. Il est utilisé pour créer des sites web et des applications web interactives et évolutives. Angular fournit une structure et une méthodologie pour organiser, développer et déployer des projets web.",
+              "type": "text-short"
+            },{
+              "description":"Une des caractéristiques principales d'Angular est la création de composants. Un composant est une unité autonome qui combine du code HTML, CSS et TypeScript pour définir un élément spécifique de l'interface utilisateur. ",
+              "type": "text-short"
+            },{
+              "description":"Angular utilise également un système de liaison de données bidirectionnelle. Cela signifie que les modifications dans le modèle de données sont automatiquement reflétées dans l'interface utilisateur, et vice versa. Cette fonctionnalité permet de créer des applications réactives où les données et l'interface utilisateur sont constamment synchronisées.",
+              "type": "text-short"
+            },{
+              "description":"Un autre aspect clé d'Angular est la gestion des routes. Angular propose un mécanisme de routage qui permet de créer des applications à pages multiples et de naviguer entre ces pages de manière fluide. Cela facilite la création d'applications web avec une expérience utilisateur fluide et intuitive.",
+              "type": "text-short"
+            },{
+              "description":"En résumé, Angular est un framework de développement d'applications web qui facilite la création de sites web et d'applications web interactives. Il permet de structurer le code en utilisant des composants, de gérer la liaison de données bidirectionnelle et de gérer les routes pour créer des applications web réactives et à pages multiples.",
+              "type": "text-short"
+            }
+          ]
+        },{
+          "titre": "Présentation du site et de ses fonctionnalités",
+          "subSubChapters": [
+            {
+              "description":"Pour commencer, j’ai créé différents « components », pour mettre en forme le contenu de mon rapport : ",
+              "type": "text-short"
+            },{
+              "description":"\n-\tHeader : ce component contient l’en-tête donc la bannière du rapport.\n-\tFooter : celui-ci contient le pied de page, comme son nom l’indique.\n-\tNavbar : contient la bar de navigation qui permet de passer d’un chapitre à un autre.\n-\tChapter : ce component gère l’affichage de l’ensemble des paragraphes des chapitres ainsi que de leurs titres en utilisant text-component\n-\tText-components : fait appel à plusieurs autres components pour gérer la mise en forme des différents paragraphes du rapport.\no\tImg : est utilisé lorqu’une image doit être affichée avec un texte en dessous.\no\tText-img-r : est utilisé lorsqu’il faut positionner une image à droite d’un texte.\no\tText-short : est le composant de base que j’utilise pour les paragraphes strandards.\no\tSketch : ce component affiche les animations de P5.js à partir du lien du sketch.\n-\tTitle-page : est le component principal qui va rassembler tous les autres et donc former le site.\n",
+              "type": "text-short"
+            },{
+              "description":"L’intégralité du contenu du rapport est stockée dans un fichier json, en respectant une structure particulière que j’ai défini dans les fichiers Chapter.model.ts, SubChapter.model.ts et SubSubChapter.model.ts.\nUn chapitre est constitué d’un id qui est un entier, un titre et d’un tableau de sous-chapitres. Les sous-chapitres, sont constitués d’un titre et d’un tableau de sous-sous chapitres (des paragraphes), qui eux, contiennent un URL, une description et un type. L’affichage du paragraphe sera conditionné en fonction de son type (img, text-img-r, short-text ou sketch)\nPar exemple, si le paragraphe n’est pas illustré par une photo, le type utilisé sera short-text. Si je souhaite qu’une photo soit affiché à droite du texte, j’utiliserai text-img-r…\n",
+              "type": "text-short"
+            },{
+              "description":"J’ai également créé un service pour gérer le changement de chapitres. Un service est un ensemble de fonctionnalités regroupées dans un bloc de code réutilisable. Il permet de séparer les fonctionnalités spécifiques d'une application du reste du code, ce qui favorise la modularité et la réutilisabilité. En utilisant un service, on peut interagir de manière abstraite avec d'autres parties de l'application, facilitant ainsi le développement et la maintenance du code.",
+              "type": "text-short"
+            },{
+              "description":"Le « chapter service » permet de récupérer des chapitres à partir d'un fichier JSON en utilisant le module HttpClient d'Angular. Il expose deux méthodes principales : getChapters() pour obtenir tous les chapitres et getChapter(id) pour récupérer un chapitre spécifique en fonction de son identifiant. Les données sont chargées à partir du fichier JSON et retournées sous forme d'observables, ce qui permet de les manipuler de manière réactive dans d'autres parties du site.",
+              "type": "text-short"
+            },{
+              "description":"",
+              "type": "text-short"
+            }
+          ]
+        },{
+          "titre": "Principales difficultés rencontrées",
+          "subSubChapters": [
+            {
+              "description":"La création de mon site internet a été un véritable défi, car je suis partie de zéro. Je n'avais aucune connaissance préalable en CSS, HTML ou même en Angular, le framework que j'ai choisi d'utiliser. Pour acquérir les compétences nécessaires, j'ai suivi des cours en ligne sur OpenClassrooms qui portaient sur le CSS, l'HTML et Angular. Chaque langage semblait relativement accessible individuellement, mais lorsque j'ai dû les combiner, les choses ont commencé à se compliquer. ",
+              "type": "text-short"
+            },{
+              "description":"Pour rendre mon code plus modulable et organisé, j'ai utilisé des composants (components) dans Angular. Un composant est une unité autonome qui combine du code HTML, CSS et TypeScript pour définir un élément spécifique de l'interface utilisateur. Au début, cela a ajouté une autre couche de confusion, car je ne savais pas quelles fonctions devaient être placées dans quel composant et dans quel fichier du composant. ",
+              "type": "text-short"
+            },{
+              "description":"Face à cette confusion, j'ai décidé de revoir les cours et de regarder des vidéos pour mieux comprendre le rôle de chaque fichier. Les deux jours que j'avais consacrés à l'apprentissage étaient insuffisants pour assimiler toutes les fonctionnalités et propriétés de chaque langage, ainsi que pour comprendre comment les assembler de manière efficace. ",
+              "type": "text-short"
+            },{
+              "description":"Malgré ces difficultés, j'ai persévéré et, au fur et à mesure de mon apprentissage, j'ai commencé à voir la logique et la structure du code émerger. J'ai pu créer des composants qui fonctionnaient ensemble pour donner vie à mon site web. ",
+              "type": "text-short"
+            },{
+              "description":"J’ai tout de même rencontré plusieurs autres difficultés, en voici quelques-unes : ",
+              "type": "text-short"
+            },{
+              "description":"Lorsque j'ai essayé de passer un lien de P5.js à l’attribut URL dans le fichier json, le sketch ne s’affichait pas dans le site, mais il n’y avait aucune erreur de signalé où que ce soit. Ce n’est qu’après de multiples recherches que je suis tombée sur une vidéo qui expliquait que Angular bloquait les scripts qui étaient chargé de d’autres domaines pour des raisons de sécurités.\nJ'ai dû mettre en place une fonction pour \"sécuriser\" les liens, de manière à ce qu'Angular les accepte et puisse les afficher.\n",
+              "type": "text-short"
+            },{
+              "description":"Après avoir inséré le contenu du rapport dans le fichier JSON, j'ai constaté que les sauts de ligne n'étaient pas pris en compte lors de l'affichage du texte. Le contenu du rapport apparaissait comme un seul paragraphe continu, ce qui rendait sa lecture difficile.\nEn utilisant la liaison de propriété `innerHTML` avec Angular, j’ai pu résoudre le problème. En assignant la valeur de `subSubChapter.description` à la propriété `innerHTML`, Angular interprète le contenu comme du code HTML et prend en compte les balises de saut de ligne telles que `<br>` ou les balises de paragraphe `<p>`. Cela permet d'afficher le texte avec les sauts de ligne correctement interprétés, rendant ainsi la lecture du rapport plus claire.\n",
+              "type": "text-short"
+            },{
+              "description":"",
+              "type": "text-short"
+            }
+          ]
+        }
       ]
     },
     {
+      "id": 6,
       "titre": "Conclusion",
       "subChapters": [
         {
           "titre": "Connaissances acquises",
-          "URL": "chemin/vers/image1.jpg",
-          "description": "",
-          "type": ""
-        },
-        {
-          "titre": "Reflexivité",
-          "URL": "chemin/vers/image2.jpg",
-          "description": "",
-          "type": "Type 2"
-        },
-        {
+          "subSubChapters": [
+            {
+              "description": "Cette expérience m'a non seulement permis de développer mes compétences en programmation, mais aussi de comprendre l'importance de la planification et de l'organisation dans un projet de création numérique.",
+              "type": "text-short"
+            },{
+              "description": "Au cours de ce projet, j'ai acquis de nombreuses connaissances en explorant l'art numérique dans ses différentes formes. J'ai pu découvrir les aspects variés de ce mouvement, allant de l'art vectoriel à l'art interactif, en passant par l'art génératif, le crypto art et bien d'autres encore. Cette immersion dans l'art numérique m'a permis de mieux comprendre les concepts et les techniques utilisés pour créer des œuvres numériques uniques et innovantes.",
+              "type": "text-short"
+            },{
+              "description": "Une partie importante de mon apprentissage a été axée sur l'utilisation de P5.js, une bibliothèque JavaScript dédiée à la création d'art numérique. Grâce à P5.js, j'ai pu explorer les possibilités de la programmation et du code en créant des petits projets visuels interactifs. Cela m'a ouvert les portes du monde de la programmation et du développement web, en me familiarisant avec les concepts clés du JavaScript.",
+              "type": "text-short"
+            },{
+              "description": "J'ai également approfondi mes connaissances en utilisant des outils tels qu'Inkscape, qui m'ont permis de créer des éléments graphiques vectoriels pour mes projets. J'ai appris à manipuler les formes, les couleurs et les effets pour créer des compositions visuelles attrayantes.",
+              "type": "text-short"
+            },{
+              "description": "En plus des langages de programmation et des outils spécifiques, j'ai appris l'importance du HTML, du CSS et d'Angular dans la création d'un site web artistique. J'ai compris le rôle de chaque fichier, que ce soit le HTML pour la structure, le CSS pour la mise en page et le style, ou encore Angular pour la gestion des composants, des services et des modèles. ",
+              "type": "text-short"
+            },{
+              "description": "Dans l'ensemble, les connaissances acquises au cours de ce projet ont été précieuses et m'ont ouvert de nouvelles perspectives sur l'art numérique et la création artistique à travers le code et la technologie.",
+              "type": "text-short"
+            }
+          ]
+
+        },{
+          "titre": "Réflexivité",
+          "subSubChapters": [
+            {
+              "description": "C’est souvent une fois le travail bien entamé qu’on se rend compte qu’on ne s’y est pas pris correctement.",
+              "type": "text-short"
+            },{
+              "description": "Tout d'abord, j'aurais dû consacrer plus de temps aux cours sur les différents langages que j’ai utilisé et je me serais penché sur les différents exemples proposés dans ces cours. Au lieu de vouloir immédiatement appliquer mes connaissances à mon projet, j'aurais pris le temps de comprendre pleinement les concepts et les fonctionnalités d'Angular, ainsi que le rôle des différents fichiers et composants. ",
+              "type": "text-short"
+            },{
+              "description": "En prenant le temps d'achever les cours avant de commencer le projet, j'aurais pu mieux organiser ma démarche. J'aurais identifié les différents composants nécessaires pour mon site web, établi une structure claire et défini une planification plus précise. Cela m'aurait permis de travailler de manière plus méthodique et d'éviter certaines difficultés rencontrées lors de l'assemblage des différentes parties de mon projet.",
+              "type": "text-short"
+            },{
+              "description": "En outre, j'aurais accordé une attention particulière à la documentation et aux ressources disponibles. J'aurais exploré davantage les guides et les tutoriels pour approfondir ma compréhension des langages de programmation et des outils utilisés. Cela aurait renforcé ma confiance dans la réalisation du projet et m'aurait aidé à résoudre plus facilement les problèmes techniques rencontrés en cours de route.",
+              "type": "text-short"
+            },{
+              "description": "En résumé, si je devais recommencer ce projet, j'investirais plus de temps dans l'apprentissage préalable et la compréhension approfondie des concepts. J'organiserais mon projet de manière plus méthodique et j'exploiterais davantage les ressources disponibles pour faciliter mon apprentissage. Cela me permettrait d'aborder le projet avec une meilleure maîtrise des outils et des techniques, et d'obtenir un résultat plus fluide et abouti.",
+              "type": "text-short"
+            }
+          ]
+
+        },{
           "titre": "Conclusion",
-          "URL": "chemin/vers/image2.jpg",
-          "description": "",
-          "type": ""
+          "subSubChapters": [
+            {
+              "description": "",
+              "type": "text-short"
+            },{
+              "description": "Cette expérience m'a apporté une compréhension plus approfondie de l'intersection entre l'art et la technologie. J'ai réalisé que le code informatique peut être utilisé comme un outil puissant pour générer des formes artistiques, des animations et des interactions innovantes. Le mariage de la créativité artistique et des langages de programmation offre des possibilités infinies pour repousser les limites de l'expression artistique.",
+              "type": "text-short"
+            },{
+              "description": "Cependant, tout au long de ce projet, j'ai également fait face à des défis importants. L'apprentissage de plusieurs langages de programmation simultanément, ainsi que la compréhension des concepts complexes d'Angular et la gestion des différents fichiers et composants, ont été des tâches ardues. J'ai dû consacrer du temps à la recherche, à la consultation de la documentation et à l'expérimentation pour surmonter ces difficultés.",
+              "type": "text-short"
+            },{
+              "description": "En ce qui concerne la problématique posée, \"le code est-il l'avenir de l'art ?\", ma réponse serait que le code a un rôle de plus en plus important dans l'art contemporain. Il offre aux artistes de nouvelles possibilités pour créer des œuvres interactives, génératives et basées sur des algorithmes. Le code permet de repousser les frontières de la créativité et de créer des expériences artistiques uniques. Cependant, cela ne signifie pas que le code remplace complètement les autres formes d'art traditionnelles. Les deux peuvent coexister et se compléter, offrant ainsi une diversité d'expressions artistiques.",
+              "type": "text-short"
+            },{
+              "description": "",
+              "type": "text-short"
+            }
+          ]
+
         }
       ]
     }
