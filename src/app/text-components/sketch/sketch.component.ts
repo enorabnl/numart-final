@@ -12,6 +12,6 @@ export class SketchComponent {
   constructor(public sanitizer :DomSanitizer) {
   }
   getSafeURL(){
-    return this.sanitizer.bypassSecurityTrustResourceUrl(this.subSubChapter.sketchURL);
+    return this.sanitizer.bypassSecurityTrustResourceUrl(this.subSubChapter.URL);
   }
 }
