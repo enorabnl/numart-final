@@ -102,6 +102,9 @@
               "description": "Les œuvres d'art génératif sont souvent caractérisées par leur nature dynamique, évolutive et interactive. Quelques exemples d'art génératif comprennent des installations lumineuses qui se modifient en fonction des mouvements du public, des compositions musicales générées par des algorithmes complexes, des paysages visuels en constante évolution basés sur des règles mathématiques, des sculptures générées par ordinateur imprimées en 3D et des peintures numériques générées à partir d'ensembles de données.",
               "type": "text-short"
             },{
+              "description":"Les avancées en matière d'intelligence artificielle ont ouvert de nouvelles perspectives et possibilités. Les artistes peuvent désormais exploiter les capacités des systèmes d'intelligence artificielle pour enrichir leurs créations. Les algorithmes d'apprentissage automatique et de réseaux neuronaux peuvent être utilisés pour générer des modèles, des textures ou des formes artistiques uniques. Ces modèles peuvent être entraînés sur de vastes ensembles de données artistiques existantes, leur permettant d'apprendre les motifs et les styles spécifiques pour créer de nouvelles œuvres originales. L'intelligence artificielle offre également la possibilité d'interagir avec les spectateurs et de créer des expériences personnalisées en analysant et en adaptant les réponses de l'utilisateur. L'utilisation de l'intelligence artificielle dans l'art génératif ouvre de nouvelles perspectives créatives et élargit les frontières de l'expression artistique en explorant l'intersection entre l'imagination humaine et les capacités computationnelles.",
+              "type": "text-short"
+            },{
               "URL": "assets/data/img/aGene_plantes.jpg",
               "description":"Fifty sisters - Jon McCormack",
               "type": "img"
@@ -338,6 +341,12 @@
             }, {
               "URL": "https://editor.p5js.org/enobnl/full/ENzjIc2DX",
               "type": "sketch"
+            },{
+              "URL": "https://editor.p5js.org/enobnl/full/xuUEyiG57",
+              "type": "sketch"
+            },{
+              "URL": "https://editor.p5js.org/enobnl/full/uh47Sej85",
+              "type": "sketch"
             }
           ]
 
@@ -352,8 +361,11 @@
           "titre": "Présentation Inkscape",
           "subSubChapters": [
             {
-              "description": "Inkscape est un logiciel libre et gratuit de dessin vectoriel, utilisé pour créer des graphismes vectoriels, des illustrations, ou encore des logos. Il permet donc de dessiner des images de haute qualité, qui peuvent être redimensionnés à n'importe quelle taille sans perdre de qualité. \nInkscape propose de nombreuses fonctionnalités, notamment la possibilité de dessiner des formes, de modifier les couleurs, les traits et les remplissages, ainsi que la possibilité d'importer et d'exporter des fichiers de différents formats : svg, png, jpg…\n",
+              "description": "Inkscape est un logiciel libre et gratuit de dessin vectoriel, utilisé pour créer des graphismes vectoriels, des illustrations, ou encore des logos. Il permet donc de dessiner des images de haute qualité, qui peuvent être redimensionnés à n'importe quelle taille sans perdre de qualité. <br>Inkscape propose de nombreuses fonctionnalités, notamment la possibilité de dessiner des formes, de modifier les couleurs, les traits et les remplissages, ainsi que la possibilité d'importer et d'exporter des fichiers de différents formats : svg, png, jpg…<br>",
               "type": "text-short"
+            },{
+              "URL": "assets/data/img/inkscape.png",
+              "type": "img"
             }
           ]
         },{
@@ -421,10 +433,14 @@
           "titre": "Présentation html",
           "subSubChapters": [
             {
+              "URL": "assets/data/img/HTML5_logo.png",
+              "type": "img"
+            },
+            {
               "description":"Le HTML est un langage de programmation utilisé pour structurer le contenu d'une page web. Il est considéré comme la base fondamentale de la création de sites internet et joue un rôle essentiel dans la présentation et l'organisation des informations sur une page web.",
               "type": "text-short"
             },{
-              "description":"Le HTML utilise des balises pour marquer différents éléments du contenu, tels que les titres, les paragraphes, les images, les liens, les tableaux, les formulaires, etc. Chaque balise est entourée de chevrons (< >) et indique au navigateur web comment afficher ces éléments. Par exemple, la balise <h1> marque un titre de premier niveau, tandis que la balise <p> est utilisée pour définir un paragraphe.",
+              "description":"Le HTML utilise des balises pour marquer différents éléments du contenu, tels que les titres, les paragraphes, les images, les liens, les tableaux, les formulaires, etc. Chaque balise est entourée de chevrons (< >) et indique au navigateur web comment afficher ces éléments. Par exemple, la balise < h1 > marque un titre de premier niveau, tandis que la balise < p > est utilisée pour définir un paragraphe.",
               "type": "text-short"
             },{
               "description":"Une des particularités du HTML est sa structure hiérarchique. Les balises HTML sont imbriquées les unes dans les autres pour créer une structure en arborescence, où les balises parentes englobent les balises enfants. Cette hiérarchie permet de définir la relation entre les différents éléments de la page.",
@@ -437,6 +453,10 @@
         },{
           "titre": "Présentation css",
           "subSubChapters": [
+            {
+              "URL": "assets/data/img/CSS3_logo.png",
+              "type": "img"
+            },
             {
               "description":"Le CSS est un langage de programmation utilisé pour décrire la présentation et la mise en forme d'un document HTML. Il permet de contrôler l'apparence visuelle d'un site web, en définissant des règles pour la mise en page, les couleurs, les polices, les marges, les bordures, etc.",
               "type": "text-short"
@@ -454,6 +474,10 @@
         },{
           "titre": "Présentation angular",
           "subSubChapters": [
+            {
+              "URL": "assets/data/img/angular.png",
+              "type": "img"
+            },
             {
               "description":"Angular est un framework de développement d'applications web basé sur le TypeScript. Il est utilisé pour créer des sites web et des applications web interactives et évolutives. Angular fournit une structure et une méthodologie pour organiser, développer et déployer des projets web.",
               "type": "text-short"
@@ -478,10 +502,10 @@
               "description":"Pour commencer, j’ai créé différents « components », pour mettre en forme le contenu de mon rapport : ",
               "type": "text-short"
             },{
-              "description":"\n-\tHeader : ce component contient l’en-tête donc la bannière du rapport.\n-\tFooter : celui-ci contient le pied de page, comme son nom l’indique.\n-\tNavbar : contient la bar de navigation qui permet de passer d’un chapitre à un autre.\n-\tChapter : ce component gère l’affichage de l’ensemble des paragraphes des chapitres ainsi que de leurs titres en utilisant text-component\n-\tText-components : fait appel à plusieurs autres components pour gérer la mise en forme des différents paragraphes du rapport.\no\tImg : est utilisé lorqu’une image doit être affichée avec un texte en dessous.\no\tText-img-r : est utilisé lorsqu’il faut positionner une image à droite d’un texte.\no\tText-short : est le composant de base que j’utilise pour les paragraphes strandards.\no\tSketch : ce component affiche les animations de P5.js à partir du lien du sketch.\n-\tTitle-page : est le component principal qui va rassembler tous les autres et donc former le site.\n",
+              "description":"-\tHeader : ce component contient l’en-tête donc la bannière du rapport.<br>-\tFooter : celui-ci contient le pied de page, comme son nom l’indique.<br>-\tNavbar : contient la bar de navigation qui permet de passer d’un chapitre à un autre.<br>-\tChapter : ce component gère l’affichage de l’ensemble des paragraphes des chapitres ainsi que de leurs titres en utilisant text-component<br>-\tText-components : fait appel à plusieurs autres components pour gérer la mise en forme des différents paragraphes du rapport.<br>o\tImg : est utilisé lorqu’une image doit être affichée avec un texte en dessous.<br>o\tText-img-r : est utilisé lorsqu’il faut positionner une image à droite d’un texte.<br>o\tText-short : est le composant de base que j’utilise pour les paragraphes strandards.<br>o\tSketch : ce component affiche les animations de P5.js à partir du lien du sketch.<br>-\tTitle-page : est le component principal qui va rassembler tous les autres et donc former le site.<br>",
               "type": "text-short"
             },{
-              "description":"L’intégralité du contenu du rapport est stockée dans un fichier json, en respectant une structure particulière que j’ai défini dans les fichiers Chapter.model.ts, SubChapter.model.ts et SubSubChapter.model.ts.\nUn chapitre est constitué d’un id qui est un entier, un titre et d’un tableau de sous-chapitres. Les sous-chapitres, sont constitués d’un titre et d’un tableau de sous-sous chapitres (des paragraphes), qui eux, contiennent un URL, une description et un type. L’affichage du paragraphe sera conditionné en fonction de son type (img, text-img-r, short-text ou sketch)\nPar exemple, si le paragraphe n’est pas illustré par une photo, le type utilisé sera short-text. Si je souhaite qu’une photo soit affiché à droite du texte, j’utiliserai text-img-r…\n",
+              "description":"L’intégralité du contenu du rapport est stockée dans un fichier json, en respectant une structure particulière que j’ai défini dans les fichiers Chapter.model.ts, SubChapter.model.ts et SubSubChapter.model.ts.<br>Un chapitre est constitué d’un id qui est un entier, un titre et d’un tableau de sous-chapitres. Les sous-chapitres, sont constitués d’un titre et d’un tableau de sous-sous chapitres (des paragraphes), qui eux, contiennent un URL, une description et un type. L’affichage du paragraphe sera conditionné en fonction de son type (img, text-img-r, short-text ou sketch)<br>Par exemple, si le paragraphe n’est pas illustré par une photo, le type utilisé sera short-text. Si je souhaite qu’une photo soit affiché à droite du texte, j’utiliserai text-img-r…<br>",
               "type": "text-short"
             },{
               "description":"J’ai également créé un service pour gérer le changement de chapitres. Un service est un ensemble de fonctionnalités regroupées dans un bloc de code réutilisable. Il permet de séparer les fonctionnalités spécifiques d'une application du reste du code, ce qui favorise la modularité et la réutilisabilité. En utilisant un service, on peut interagir de manière abstraite avec d'autres parties de l'application, facilitant ainsi le développement et la maintenance du code.",
@@ -513,10 +537,10 @@
               "description":"J’ai tout de même rencontré plusieurs autres difficultés, en voici quelques-unes : ",
               "type": "text-short"
             },{
-              "description":"Lorsque j'ai essayé de passer un lien de P5.js à l’attribut URL dans le fichier json, le sketch ne s’affichait pas dans le site, mais il n’y avait aucune erreur de signalé où que ce soit. Ce n’est qu’après de multiples recherches que je suis tombée sur une vidéo qui expliquait que Angular bloquait les scripts qui étaient chargé de d’autres domaines pour des raisons de sécurités.\nJ'ai dû mettre en place une fonction pour \"sécuriser\" les liens, de manière à ce qu'Angular les accepte et puisse les afficher.\n",
+              "description":"Lorsque j'ai essayé de passer un lien de P5.js à l’attribut URL dans le fichier json, le sketch ne s’affichait pas dans le site, mais il n’y avait aucune erreur de signalé où que ce soit. Ce n’est qu’après de multiples recherches que je suis tombée sur une vidéo qui expliquait que Angular bloquait les scripts qui étaient chargé de d’autres domaines pour des raisons de sécurités.<br>J'ai dû mettre en place une fonction pour \"sécuriser\" les liens, de manière à ce qu'Angular les accepte et puisse les afficher.<br>",
               "type": "text-short"
             },{
-              "description":"Après avoir inséré le contenu du rapport dans le fichier JSON, j'ai constaté que les sauts de ligne n'étaient pas pris en compte lors de l'affichage du texte. Le contenu du rapport apparaissait comme un seul paragraphe continu, ce qui rendait sa lecture difficile.\nEn utilisant la liaison de propriété `innerHTML` avec Angular, j’ai pu résoudre le problème. En assignant la valeur de `subSubChapter.description` à la propriété `innerHTML`, Angular interprète le contenu comme du code HTML et prend en compte les balises de saut de ligne telles que `<br>` ou les balises de paragraphe `<p>`. Cela permet d'afficher le texte avec les sauts de ligne correctement interprétés, rendant ainsi la lecture du rapport plus claire.\n",
+              "description":"Après avoir inséré le contenu du rapport dans le fichier JSON, j'ai constaté que les sauts de ligne n'étaient pas pris en compte lors de l'affichage du texte. Le contenu du rapport apparaissait comme un seul paragraphe continu, ce qui rendait sa lecture difficile.<br>En utilisant la liaison de propriété `innerHTML` avec Angular, j’ai pu résoudre le problème. En assignant la valeur de `subSubChapter.description` à la propriété `innerHTML`, Angular interprète le contenu comme du code HTML et prend en compte les balises de saut de ligne telles que `<br>` ou les balises de paragraphe `<p>`. Cela permet d'afficher le texte avec les sauts de ligne correctement interprétés, rendant ainsi la lecture du rapport plus claire.<br>",
               "type": "text-short"
             },{
               "description":"",
@@ -576,7 +600,7 @@
           ]
 
         },{
-          "titre": "Conclusion",
+          "titre": "Synthèse",
           "subSubChapters": [
             {
               "description": "",
